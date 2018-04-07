@@ -1,44 +1,111 @@
-<!-- CSS Stylesheets with Relative Paths -->
-
-<!DOCTYPE html>
-<html lang="en-us">
-
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>CSS Stylesheets with Relative Paths</title>
+<meta charset="UTF-8">
+<meta name="author" content="#DESAIGNER" />
 
-  <!-- This line is money! It points your HTML to the CSS file. -->
-  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
-  <link rel="stylesheet" type="text/css" href="assets/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/style.css">
+<title>Basic-Portfolio</title>
 
+<!--css reset-->
+
+<link rel="stylesheet" href="assets/css/reset.css" type="text/css">
+
+<!--css attached-->
+
+<link rel="shortcut icon" href="assets/images/favicon.ico" /> 
+
+<!--css developer-->
+
+<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+<!--javascript-->
+
+<!--other-->
 </head>
 
 <body>
-  <header>
-    <h1>Personal</h1>
-  </header>
 
-  <div class="container">
+<!--main body-->
 
-    <section id="main-bio">
+	<div id="mainbody">
+	
+	<!--header-->
+	
+	<header id="header">
+	
+		<section id="topheader">
+			<div id="logo">
+				<h1 id="name">KRATU DESAI</h1>
+			</div>
 
-      <h2>Kratu Desai</h2>
+			<!--	navigation-->
 
-      <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name">
+			<nav id="nav">
+				<ul>
+					<li><a href="index.html" id="currentPage">About</a></li>
+					<li class="lineseprator">|</li>
+					<li><a href="assets/html/portfolio.html">Portfolio</a></li>
+					<li class="lineseprator">|</li>
+					<li><a href="assets/html/contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</section>
 
-      <p>My profile <a href="http://desaign.me">desaign.me</a></p>
-    </section>
+		<!--	end naviagation-->
 
-    <section id="contact-info">
-      <h2>Contact Info</h2>
-      <ul>
-        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-      </ul>
-    </section>
-  </div>
+	</header>
+
+	<!--end header-->
+
+	<!--main section-->
+	
+	<section id="mainsection">
+		<div id="submainsection">
+		<!--	section heading-->
+		
+		<heading>
+			<h4>About Me</h4>
+		</heading>
+
+		<!--	end section heading-->
+		<hr class="clearfix">
+		<!--	body section-->
+		
+		<div id="bodysection">
+		
+		<img src="assets/images/kdesai01.jpg" width="200" alt="Kratu" id="kratuPic">
+		
+		<p>Lorem ipsum dolor sit amet, vix an ludus habemus patrioque, his ei epicuri referrentur, te eam iudico feugait facilisis. Eum quod nonumy oporteat ea. Usu ei viris aperiam, ea duo possim impetus repudiandae, exerci adversarium pri cu. An ius errem tantas appetere, altera inimicus explicari ea per, ei salutandi scripserit mea. Quis animal pertinacia vel ne, suas graecis insolens eu sit. <br><br>
+
+Omnium mnesarchum at usu, ut vel eirmod eruditi similique. Cu vel quod autem conceptam. At usu illud invenire, laudem scripta volumus eu ius. Id eos quaeque fabulas, in duis constituam vis. An ius errem tantas appetere, altera inimicus explicari ea per, ei salutandi scripserit mea. Quis animal pertinacia vel ne, suas graecis insolens eu sit. Lorem ipsum dolor sit amet, vix an ludus habemus patrioque, his ei epicuri referrentur, te eam iudico feugait facilisis. Eum quod nonumy oporteat ea. Usu ei viris aperiam, ea duo possim impetus repudiandae, exerci adversarium pri cu. An ius errem tantas appetere, altera inimicus explicari ea per, ei salutandi scripserit mea. </p>
+			
+		</div>
+
+		<!--	end body section-->
+		</div>
+
+
+		
+	</section>
+
+
+	<!--end main section-->
+
+	<!--footer-->
+	
+	<footer id="footer">
+	
+	<p>DESAIGN.STUDIO &copy; 2018 | All rights reserved.</p>
+		
+	</footer>
+
+	<!--end footer-->
+
+		
+		
+	</div>
+
+<!--end main body-->
 
 </body>
 
