@@ -1,9 +1,10 @@
 <!doctype html>
 
 <!--
-        ╥ 
-        ║ DESIGNED AND DEVELOPED BY...
-        ║   
+
+        ╥ DESIGNED AND DEVELOPED BY...
+        ║ 
+        ║   /       ───
         ║ ╓──╖ ╓───────╖ ╓╖ ╓───╖ ╓───╖ TM
         ║ ║  ║ ║       ║ ╙╜ ║   ║ ║   ║  
     ╓───╫─╫──╜ ╙──╖ ╓──╫──╖ ║   ║ ║   ║
@@ -14,7 +15,9 @@
   
 -->
 
-<html dir="ltr" lang="en-US">
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" dir="ltr" lang="en-US"> <!--<![endif]-->
 
 <!--=============================================-->
 <!--=============================================-->
@@ -22,99 +25,953 @@
 
 <head>
 
-    <!-------------------------------------------
+    <!--:::::::::::::::::::::::::::::::::::::::
   Required meta tags
-  -------------------------------------------->
-
+::::::::::::::::::::::::::::::::::::::::-->
+  
     <meta charset="utf-8">
-    <!--just for auto-refresh in dev use the following meta tag-->
+    <!--just for auto-refresh or redirect use the following meta tag-->
     <!--<meta http-equiv="refresh" content="10" />-->
+    <!--<meta http-equiv="refresh" content="0; url=http://website.com/" />-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!--mobile specific metas-->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="#DESAIGNER" />
-    <meta name="description" content="kratuvwxyz.github.io website portfolio contact information hire projects design development graphic design" />
-    <meta name="keywords" content="kratuvwxyz.github.io website portfolio contact information hire projects design development graphic design" />
-    <link rel="shortcut icon" type="image/gif" href="assets/images/favicon.gif" />
-
-    <!-------------------------------------------
+    
+    <!--basic page needs-->
+    <meta name="author" content="#DESAIGNER ¯\_(ツ)_/¯" />
+    <meta name="description" content="#"/> 
+    <meta name="keywords" content="#"/>
+    
+    <!--favicons-->
+    <link rel="shortcut icon" type="image/gif" href="https://raw.githubusercontent.com/kratuvwxyz/assets2/master/images/favicon.gif" />
+    
+       <!--:::::::::::::::::::::::::::::::::::::::
   Stylesheets
-  -------------------------------------------->
-    <!--Reset CSS-->
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <!--Other CSS-->
-    <!-- w3.css -->
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/w3.css">
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="assets/css/bootstrap-reboot.css" title="bootstrap reboot" type="text/css" media="screen" charset="utf-8">
-    <link rel="stylesheet" href="assets/css/bootstrap-grid.css" title="bootstrap grid" type="text/css" media="screen" charset="utf-8">
-    <link rel="stylesheet" href="assets/css/bootstrap.css" title="bootstrap" type="text/css" media="screen" charset="utf-8">
+::::::::::::::::::::::::::::::::::::::::-->
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:400,400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    
+    <!--Awesome Fonts Library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!--++++++-->
+
+    
+    <!--++++++-->
+
     <!--Developer CSS-->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+	<link rel="stylesheet" type="text/css" href="css/base.css">  
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/vendor.css">  
+	<link rel="stylesheet" type="text/css" href="css/component.css" />   
+	
+    <style type="text/css">
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'IBM Plex Serif', serif;
+        }
+        
+        h1, h2 {
+	        letter-spacing: 1px;
+        }
+        
+/*
+        footer {
+            background-image: url(https://raw.githubusercontent.com/kratuvwxyz/assets2/master/images/background/pattern/confectionary.png);
+            background-color: khaki;
+        }
+*/
+        
+    </style>
+    
+    <!--++++++-->
 
-    <!-------------------------------------------
+  
+    <!--:::::::::::::::::::::::::::::::::::::::
   JavaScript
-  -------------------------------------------->
-    <!--Font Awesome-->
-    <script defer src="assets/js/fontawesome-all.js"></script>
-    <!--jQuery-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+::::::::::::::::::::::::::::::::::::::::-->
 
-    <!-------------------------------------------
+
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+	<script src="js/modernizr.custom.js"></script>
+    
+    <!--++++++-->
+
+    <!--:::::::::::::::::::::::::::::::::::::::
   Document Title
-  -------------------------------------------->
-    <title>KRATUVWXYZ</title>
+::::::::::::::::::::::::::::::::::::::::-->
+
+  <title>DESAIGNER</title>
 
 </head>
 
-<!--=============================================-->
-<!--=============================================-->
-<!--=============================================-->
+<body id="top">
 
-<body>
+	<!-- header 
+   ================================================== -->
+   <header>   	
+   	<div class="row">
 
-    <!-------------------------------------------
-  Document Wrapper
-  -------------------------------------------->
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+	   		<div class="logo">
+		         <a href="index.html">DE<span style="color:#02779e;">SAI</span>GNER</a>
+		      </div>		      
+
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
+						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
+						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>
+						<li><a class="smoothscroll"  href="#services" title="">Services</a></li>					
+						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	
+						<!-- <li><a href="styles.html" title="">Style Demo</a></li>				 -->
+					</ul>
+				</nav>    		
+   		</div> <!-- /top-bar --> 
+	   
+   	</div> <!-- /row --> 		
+   </header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">   
+
+   	<div class="intro-overlay"></div>	
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
+
+	   			<h5>Hello, World.</h5>
+	   			<h1>I'm Kratu De<span style="color:#02779e;">sai</span>.</h1>
+
+	   			<p class="intro-position">
+	   				<span>UI/UX Designer</span>
+	   				<span>Front-end Developer</span>	   				
+	   				<span>Visual Designer</span>
+	   			</p>
+
+	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+
+	   		</div>  
+   			
+   		</div>   		 		
+   	</div> <!-- /intro-content --> 
+
+   	<ul class="intro-social">        
+         <li><a href="#"><i class="fa fa-github"></i></a></li>
+         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+         <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+         <li><a href="#"><i class="fa fa-behance"></i></a></li>
+         <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+      </ul> <!-- /intro-social -->      	
+
+   </section> <!-- /intro -->
 
 
+   <!-- about section
+   ================================================== -->
+   <section id="about">  
+
+   	<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Why Me?</h5>
+   			<h1>Let me introduce myself.</h1>
+
+   			<div class="intro-info">
+
+   				<img src="images/profile-pic.jpeg" alt="Profile Picture">
+
+   				<p class="lead">Highly motivated <span style="color:#666666;">full-stack developer</span> specializing in front end development. Experienced with all stages of the development cycle for dynamic and creative projects. Seven years of hands-on experience in making design prototypes for web browsers and print materials. Passionate for design, layout, typography and user experience to create outstanding work. </p>
+   			</div>   			
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row about-content">
+
+   		<div class="col-four tab-full">
+
+   			<h3>Profile</h3>
+   			<p>Strong background in project management and marketing with ability to work at a fast pace and with minimal supervision. I work with aim, commitment and honesty.</p>
+
+   			<ul class="info-list">
+   				
+   				<li>
+   					<strong>Company:</strong>
+   					<span>DESAIGN LLC</span>
+   				</li>
+   				<li>
+   					<strong>Website:</strong>
+   					<span><a href="http://desaign.studio" style="">http://desaign.studio</a></span>
+   				</li>
+   				<li>
+   					<strong>Email:</strong>
+   					<span><a href="mailto:sai@desaign.me">sai@desaign.me</a></span>
+   				</li>
+
+   			</ul> <!-- /info-list -->
+
+   		</div>
+
+   		<div class="col-eight tab-full">
+
+   			<h3>QUALITIES &amp; RESPONSIBILITIES</h3>
+			   
+			   <ul>
+				   <li>
+					Strategic thinker on behalf of business needs to develop interactive concepts and solutions
+				   </li>
+				   <li>
+					Work directly with designers, developers, strategists, venders and creative directors
+				   </li>
+				   <li>
+					Detail oriented and reliable team player while juggling multiple projects simultaneously
+				   </li>
+				   <li>
+					Expert in converting documents in Section 508 Compliance Ready (Accessibility check)
+				   </li>
+				   <li>
+					Possess advanced knowledge of Microsoft Office with writing macros in developer tool
+				   </li>
+				   <li>
+					Always be eager to learn new techniques and grow
+				   </li>
+				   <li>
+					Comfortable working on Mac OS, Linux or Windows platform
+				   </li>
+				   <li>
+					Proficient in freehand illustration with pen, ink and color
+				   </li>
+			   </ul>
+
+				<!-- <ul class="skill-bars">
+				   <li>
+				   	<div class="progress percent90"><span>90%</span></div>
+				   	<strong>HTML5</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent85"><span>85%</span></div>
+				   	<strong>CSS3</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent70"><span>70%</span></div>
+				   	<strong>JQuery</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent95"><span>95%</span></div>
+				   	<strong>PHP</strong>
+				   </li>
+				   <li>
+
+				   	<div class="progress percent75"><span>75%</span></div>
+				   	<strong>Wordpress</strong>
+				   </li>
+      
+				</ul> --> 
+				<!-- /skill-bars -->		 
+
+   		</div>
+
+   	</div>
+
+   	<div class="row button-section">
+   		<div class="col-twelve">
+   			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
+   			<a href="images/resume-0913.pdf" target="_black" title="Download CV" class="button button-primary" download>Download CV</a>
+   		</div>   		
+   	</div>
+
+   </section> <!-- /process-->    
 
 
-    <!-------------------------------------------
-  Footer
-  -------------------------------------------->
-    <footer class="w3-container w3-bottom w3-padding-32 w3-topbar w3-border-dark-gray">
-        <div class="w3-row w3-display-container " id="footerCopyright">
-            <img src="https://kratuvwxyz.github.io/assets/images/footer/DESAIGNLLC.svg" height="60" border="none" alt="desaign llc" style="padding-bottom: 5px;" /> <span class="w3-display-bottom" style="white-space: nowrap; font-size: 12px; line-height: 20px; letter-spacing: 1px; color: #34495e; vertical-align: bottom;">&#160;&copy; 2011-<script type="text/javascript">var d = new Date();document.write(d.getFullYear());</script> <a href="http://desaign.studio" style="color: #34495e; text-decoration: underline; vertical-align: bottom;" target="_blank" >DESAIGN.STUDIO</a> All Rights Reseverd
-	  </div>
-  </footer>
-  <div id="plog" class="w3-container w3-bottom" style="z-index: 99999" >
-  	<span class="w3-display-bottomright w3-padding-small" style="font-size: 10px;color: rgba(0, 0, 0, 0.25);">18257A01AA</span>
-        </div>
+   <!-- resume Section
+   ================================================== -->
+	<section id="resume" class="grey-section">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Resume</h5>
+   			<h1>More of my credentials.</h1>
+
+   			<p class="lead">Creative by perfection, <span style="white-space: nowrap;">Developer by profession, </span><span style="white-space: nowrap;">Designer by passion.</span></p>
+
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Success in the Experience Era</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-suitcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Freelance Creative Director</h3>
+	   					<p>Jan 2011 - Never Ends</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Desaign Studio, Austin</h4>
+						   <p>I have been creating numerous amount of creative branding, marketing and interactive work according to business needs.</p>
+						   <p>
+							<b>Clients:</b> Oasis Family Dental (NJ), Pipkin Pharmacy (FL), Jalpa Dance Academy (CHI), Apollo tiles (ATX), Door Number 3 (ATX), That Guy Handyman Services (SMTX), Approved LLC (ATX), Saffron Dreams Tours (US), Volusion (ATX), Harte Hanks (ATX), The Good Times - Sports Bar and Grill (DLS), Paridhan (IND), Chick-fil-A (SMTX), Le Papillion Restaurant (HOU), Spice 15 (IND), Arvind Mills (IND), Purna Photography (US), Sewer Museum (FR), and more.
+						   </p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Full-Stack Web Development Program</h3>
+	   					<p>Mar 2018 - Sept 2018</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>University of Texas at Austin</h4>
+	   					<p>Gained hands-on experience in full-stack development including all kind of front-end and backend technologies. Learned programming skills and in-demand languages for web development, including JavaScript, Browser-Based Technologies (HTML5, CSS, Bootstrap, Responsive Design, jQuery), Deployment (Heroku, Firebase, Git), PHP frameworks like Laravel, Databases (MySQL, MongoDB), Server Side Development (Node.js, Express, MERN Stack), Quality Assurance, User Authentication, Security and Session Storage.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-suitcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Web and Graphic Designer</h3>
+	   					<p>Jul 2015 - Jul 2018</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Centene Corporation, Austin</h4>
+	   					<p>In-House Web Developer and Graphic Designer in Marketing and Communication team at Superior HealthPlan (AUS). Developed numerous amount of work that connect companies 9 different products with members, providers, government relations and internal communication.</p>
+	   				</div>
+
+				</div> <!-- /timeline-block -->
+				
+				<div class="timeline-block">
+
+					<div class="timeline-ico">
+						<i class="fa fa-suitcase"></i>
+					</div>
+
+					<div class="timeline-header">
+						<h3>Web Developer</h3>
+						<p>Mar 2015 - Jul 2015</p>
+					</div>
+
+					<div class="timeline-content">
+						<h4>Golfsmith International, Austin</h4>
+						<p>Helped web and marketing team to produce web and print materials. Created web elements and E-mail marketing materials for Father’s Day, Demo Day and Tent Sale events to promote special sales using HTML, CSS, JavaScript and MySQL. Worked with clients and Project Managers to build and refine layouts for websites. Developed web pages for internal promotional site.</p>
+					</div>
+
+				</div> <!-- /timeline-block -->
+			
+				<div class="timeline-block">
+
+					<div class="timeline-ico">
+						<i class="fa fa-suitcase"></i>
+					</div>
+
+					<div class="timeline-header">
+						<h3>Junior Web Developer and Production Lead</h3>
+						<p>Apr 2014 - Mar 2015</p>
+					</div>
+
+					<div class="timeline-content">
+						<h4>Tocquigny Digital Agency, Austin</h4>
+						<p>Worked as a production designer, developer and junior art director.</p>
+						<p>
+							Created multiple versions of web layouts, mock-ups, digital ads, email templates, collateral, direct mail, layout while maintaining branding and requirements for clients like Ergon Asphalt & Emulsions, inc., Save My Road, Regent University, InfoSnap, Silicon Labs, LegacyTexas Bank, NGC, Freeman, Arthrocare, Rice University, NFP, TQ MOOK, World Vision and many more.
+						</p>
+					</div>
+
+				</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+   	
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Education</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Programming Boot Camp</h3>
+	   					<p>Mar 2018 - Sept 2018</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Full-Stack Web Development</h4>
+	   					<p>University of Texas at Austin, Austin</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Bachelor Degree</h3>
+	   					<p>2009 - 2012</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Communication Design</h4>
+	   					<p>Department of Fine Arts at Texas State University, San Marcos</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Associate Degree</h3>
+	   					<p>2007 - 2009</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Art and Design</h4>
+	   					<p>Department of Arts at Austin Community College, Austin</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block --> 
+				
+				<div class="timeline-block">
+
+					<div class="timeline-ico">
+						<i class="fa fa-graduation-cap"></i>
+					</div>
+
+					<div class="timeline-header">
+						<h3>Diploma</h3>
+						<p>2002 - 2005</p>
+					</div>
+
+					<div class="timeline-content">
+						<h4>Design and Applied Arts</h4>
+						<p>Mudra, School of Fine Arts, India</p>
+					</div>
+
+				</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+	</div> <!-- /resume-timeline -->
+	
+	<div class="row button-section">
+		<div class="col-twelve">
+			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
+			<a href="images/resume-0913.pdf" target="_black" title="Download CV" class="button button-primary" download>Download CV</a>
+		</div>   		
+	</div>
+		
+	</section> <!-- /features -->
 
 
-        <!-------------------------------------------
-  External JavaScripts
-  -------------------------------------------->
+	<!-- Portfolio Section
+   ================================================== -->
+	<section id="portfolio">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Portfolio</h5>
+   			<h1>Check Out Some of My Works.</h1>
+
+   			<p class="lead"></p>
+
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+	<div class="row desaignKraft">
+		<ul class="cbp-rfgrid">
+			<li><a href="#"><img src="images/intro-bg.jpg" /><div><h3>DESAIGN KRAFT <br/> <i class="fa fa-github"></i></h3></div></a></li>
+			<li><a href="#"><img src="images/intro-bg.jpg" /><div><h3>DESAIGN KRAFT</h3></div></a></li>
+			<li><a href="#"><img src="images/intro-bg.jpg" /><div><h3>DESAIGN KRAFT</h3></div></a></li>
+			<li><a href="#"><img src="images/intro-bg.jpg" /><div><h3>DESAIGN KRAFT</h3></div></a></li>
+			<li><a href="#"><img src="images/intro-bg.jpg" /><div><h3>DESAIGN KRAFT</h3></div></a></li>
+			<li><a href="#"><img src="images/intro-bg.jpg" /><div><h3>DESAIGN KRAFT</h3></div></a></li>
+			<li><a href="#"><img src="images/intro-bg.jpg" /><div><h3>DESAIGN KRAFT</h3></div></a></li>
+			<li><a href="#"><img src="images/intro-bg.jpg" /><div><h3>DESAIGN KRAFT</h3></div></a></li>
+			<li><a href="#"><img src="images/intro-bg.jpg" /><div><h3>DESAIGN KRAFT</h3></div></a></li>
+			<li><a href="#"><img src="images/intro-bg.jpg" /><div><h3>DESAIGN KRAFT</h3></div></a></li>
+			<li><a href="#"><img src="images/intro-bg.jpg" /><div><h3>DESAIGN KRAFT</h3></div></a></li>
+			<li><a href="#"><img src="images/intro-bg.jpg" /><div><h3>DESAIGN KRAFT</h3></div></a></li>
+		</ul>
+	</div>
+		
+	</section> <!-- /portfolio --> 
+
+
+	<!-- CTA Section
+   ================================================== -->
+	<section id="cta" class="grey-section">
+   	<div class="row cta-content">
+
+   		<div class="col-twelve">  
+			
+			<p>Thank you for your time and consideration. My Mantra is simple, no one is perfect, and criticism is always welcome and expected. Your opinion matters. I hope you enjoy my work.</p>
+			
+			<div class="action">
+				<a class="button button-primary large" href="http://desaign.studio">Explore More Work ></a>
+			</div>		     	
+
+   		</div>
+
+   	</div> <!-- /cta-content -->
+
+   </section> <!-- /cta --> 
+
+	
+	<!-- services Section
+   ================================================== -->
+	<section id="services">
+
+		<div class="overlay"></div>
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Services</h5>
+   			<h1>What Can I Do For You?</h1>
+
+   			<p class="lead">Design must be simple to understand and emotionally effective. It is the core of any product. I strive to deliver design that is simple and clear, yet innovative and creative.</p>
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row services-content">
+
+   		<div id="owl-slider" class="owl-carousel services-list">
+
+	      	<div class="service">	
+
+	      		<span class="icon"><i class="icon-earth"></i></span>            
+
+	            <div class="service-content">	
+
+	            	 <h3>Full-Stack Website</h3>
+
+		            <p class="desc"> 
+	         		</p>
+	         		
+	         	</div> 	         	 
+
+				</div> <!-- /service -->
+
+				<div class="service">	
+
+					<span class="icon"><i class="icon-window"></i></span>                          
+
+	            <div class="service-content">	
+
+	            	<h3>Front-End Development</h3>  
+
+		            <p class="desc"> 
+	         		</p>
+
+	            </div>	                          
+
+			   </div> <!-- /service -->
+
+			   <div class="service">
+
+			   	<span class="icon"><i class="icon-paint-brush"></i></span>		            
+
+	            <div class="service-content">
+
+	            	<h3>UI/UX Design</h3>
+
+		            <p class="desc"> 
+	        			</p> 
+
+	            </div> 	            	               
+
+			   </div> <!-- /service -->
+
+				<div class="service">
+
+					<span class="icon"><i class="icon-toggles"></i></span>	              
+
+	            <div class="service-content">
+
+	            	<h3>Branding/Styling</h3>
+
+		            <p class="desc"> 
+	         		</p> 
+	         		
+	            </div>                
+
+				</div> <!-- /service -->
+
+			   <div class="service">
+
+			   	<span class="icon"><i class="icon-image"></i></span>	            
+
+	            <div class="service-content">
+
+	            	<h3>Visual Design</h3>
+
+		            <p class="desc"> 
+	        		</p> 
+
+	            </div>	               
+
+			   </div> <!-- /service -->
+
+			   <div class="service">
+
+			   	<span class="icon"><i class="icon-pen"></i></span>	   	           
+
+	            <div class="service-content">
+
+	            	 <h3>Prototypes/Wire-Frames</h3>
+
+		            <p class="desc"> 
+	        		</p> 
+	        			
+	            </div>	               
+
+			   </div> <!-- /service -->
+
+	      </div> <!-- /services-list -->
+   		
+   	</div> <!-- /services-content -->
+		
+	</section> <!-- /services -->	
+
+
+	<!-- stats Section
+   ================================================== -->
+	<section id="stats" class="count-up">
+
+		<div class="row">
+			<div class="col-twelve">
+
+				<div class="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-pencil-ruler"></i>
+						</div>
+
+						<h3 style="color:antiquewhite; margin-bottom: 0; margin-top: 1.5rem;">
+							<span class="stat-count">500</span>+
+						</h3>
+
+						<h5 class="stat-title">
+							Projects Completed
+						</h5>
+
+					</div> <!-- /stat -->					
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-users"></i>
+						</div>
+
+						<h3 style="color:antiquewhite; margin-bottom: 0; margin-top: 1.5rem;">
+								<span class="stat-count">100</span>+
+							</h3>
+
+						<h5 class="stat-title">
+							Happy Clients
+						</h5>
+
+					</div> <!-- /stat -->
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-badge"></i>
+						</div>
+
+						<h3 style="color:antiquewhite; margin-bottom: 0; margin-top: 1.5rem;">
+								<span class="stat-count">20</span>+
+							</h3>
+
+						<h5 class="stat-title">
+							Awards Received
+						</h5>
+
+					</div> <!-- /stat -->									
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-light-bulb"></i>
+						</div>
+
+						<h3 style="color:antiquewhite; margin-bottom: 0; margin-top: 1.5rem;">
+								<span class="stat-count">100</span>+
+							</h3>
+
+						<h5 class="stat-title">
+							Crazy Ideas
+						</h5>
+
+					</div> <!-- /stat -->
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-cup"></i>
+						</div>
+
+						<h3 style="color:antiquewhite; margin-bottom: 0; margin-top: 1.5rem;">
+								<span class="stat-count">1500</span>+
+							</h3>
+
+						<h5 class="stat-title">
+							Chai Tea Latte
+						</h5>
+
+					</div> <!-- /stat -->
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-clock"></i>
+						</div>
+
+						<h3 style="color:antiquewhite; margin-bottom: 0; margin-top: 1.5rem;">
+								<span class="stat-count">9600</span>+
+							</h3>
+
+						<h5 class="stat-title">
+							Hours
+						</h5>
+
+					</div> <!-- /stat -->
+
+				</div> <!-- /stats-list -->
+
+			</div> <!-- /twelve -->
+		</div> <!-- /row -->
+
+	</section> <!-- /stats -->
+
+	
+   <!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Contact</h5>
+   			<h1>I'd Love To Hear From You.</h1>
+
+   			<p class="lead">Please provide some information!</p>
+
+   		</div> 
+   	</div> <!-- /section-intro -->
+
+   	<div class="row contact-form">
+
+   		<div class="col-twelve">
+
+            <!-- form -->
+            <form name="contactForm" id="contactForm" method="post" action="">
+      			<fieldset>
+
+                  <div class="form-field">
+ 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+                  </div>
+                  <div class="form-field">
+	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Please enter valid email" value="" required="">
+	               </div>
+                  <div class="form-field">
+	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+	               </div>                       
+                  <div class="form-field">
+	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+	               </div>                      
+                 <div class="form-field">
+                     <button class="submitform">Submit</button>
+                     <div id="submit-loader">
+                        <div class="text-loader">Sending...</div>                             
+       				      <div class="s-loader">
+								  	<div class="bounce1"></div>
+								  	<div class="bounce2"></div>
+								  	<div class="bounce3"></div>
+								</div>
+							</div>
+                  </div>
+
+      			</fieldset>
+      		</form> <!-- Form End -->
+
+            <!-- contact-warning -->
+            <div id="message-warning">            	
+            </div>            
+            <!-- contact-success -->
+      		<div id="message-success">
+               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+      		</div>
+
+         </div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /contact-form -->
+
+   	<div class="row contact-info">
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-pin"></i>
+   			</div>
+
+   			<h5>Where to find me</h5>
+
+   			<p style="background-color: antiquewhite; padding: 5px;">
+            Austin, Texas
+            </p>
+
+   		</div>
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-mail"></i>
+   			</div>
+
+   			<h5>Email Me At</h5>
+
+   			<p style="background-color: antiquewhite; padding: 5px;"><a href="mailto:sai@desaign.me">sai@desaign.me</a></p>
+
+   		</div>
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-phone"></i>
+   			</div>
+
+   			<h5>Call Me At</h5>
+
+   			<p style="background-color: antiquewhite; padding: 5px;">(+1) 512 769 7976</p>
+
+   		</div>
+   		
+   	</div> <!-- /contact-info -->
+		
+	</section> <!-- /contact -->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+     	<div class="row">
+	     	
+	     	<div id="logoDesaign" style="padding: 20px;">
+		 		<img src="https://kratuvwxyz.github.io/assets/images/footer/download.svg" alt="desaign llc" width="30%" />
+                
+	     	</div>
+
+     		<div class="col-six tab-full pull-right social">
+
+     			<ul class="footer-social">        
+					<li><a href="#"><i class="fa fa-github"></i></a></li>
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+					<li><a href="#"><i class="fa fa-behance"></i></a></li>
+					<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+			   </ul> 
+	      		
+	      </div>
+
+      	<div class="col-six tab-full">
+	      	<div class="copyright">
+		        	<span>© Copyright DESAIGN LLC 2011 - 2018.</span>	         	
+		         </div>		                  
+	      	</div>
+
+	      	<div id="go-top">
+		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+		      </div>
+
+      	</div> <!-- /row -->     	
+   </footer>  
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
 
 </body>
-
-<!--=============================================-->
-<!--=============================================-->
-<!--=============================================-->
-
-<!--
-        ╥ 
-        ║ DESIGNED AND DEVELOPED BY...
-        ║   
-        ║ ╓──╖ ╓───────╖ ╓╖ ╓───╖ ╓───╖ TM
-        ║ ║  ║ ║       ║ ╙╜ ║   ║ ║   ║  
-    ╓───╫─╫──╜ ╙──╖ ╓──╫──╖ ║   ║ ║   ║
-    ║   ║ ║       ║ ║  ║  ║ ║   ║ ║   ║
-    ║   ║ ╙───────╜ ╙──╜  ║ ╙───╫─╜   ║ 
-    ║   ║ SINCE 20ELEVEN  ║     ║     ╙ LLC © HTTPS://DESAIGN.APP 
-    ╙───╜                 ╙─────╜             ALL RIGHTS RESERVED
-  
--->
 
 </html>
