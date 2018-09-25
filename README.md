@@ -1,6 +1,7 @@
 # kratuvwxyz.github.io
 
 ###Let me introduce myself.
+
 Highly motivated full-stack developer specializing in front end development. Experienced with all stages of the development cycle for dynamic and creative projects. Seven years of hands-on experience in making design prototypes for web browsers and print materials. Passionate for design, layout, typography and user experience to create outstanding work.
 
 ## HIRE ME
