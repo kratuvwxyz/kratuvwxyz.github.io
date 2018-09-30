@@ -4,10 +4,13 @@
 
 With Seven years of hands-on experience, I’m a highly motivated full-stack developer specializing in front-end development. Experienced with all stages of the development cycle for dynamic and creative projects. Passionate for design, layout, typography and user experience to create outstanding work.
 
-## HIRE ME
+#### Hire Me!
 
-Strong marketing background and project management with the ability to work at a fast pace and with
-minimal supervision. I work with an aim, commitment, and honesty.
+Expert in UI/UX and visual design. Strong marketing and project management background with the ability to work at a fast pace and with minimal supervision. I work with an aim, commitment, and honesty.
+
+#### Resume
+
+Please review my [resume](http://desaign.me). References available upon request. Thank you for your time and consideration.
 
 **I'd Love To Hear From You.**
 Thank you for your time and consideration. My Mantra is simple, *no one is perfect, and criticism is always welcome and expected*. Your opinion matters. I hope you enjoy my work. Please contact at <a href="mailto:github@desaign.studio?Subject=Message from Github">github@desaign.studio</a>.
