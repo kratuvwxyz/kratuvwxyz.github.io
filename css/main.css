@@ -90,8 +90,9 @@ a, a:visited {
 	transition: all 0.3s ease-in-out;
 }
 a:hover, a:focus, a:active {
-	color: #02779e;
-	outline: 0;
+	/* color: #02779e;
+	outline: 0; */
+	text-decoration: none;
 }
 
 /** 
@@ -708,7 +709,7 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-	background: #1f1f1f;
+	background: #02779e;
 }
 button.full-width, .button.full-width {
 	width: 100%;
@@ -1802,6 +1803,9 @@ header .logo a {
 	padding: 0;
 	position: relative;
 	overflow: hidden;
+	border-top: 10px #ffffff solid;
+	border-left: 5px #ffffff solid;
+	border-right: 5px #ffffff solid;
 }
 #portfolio .folio-item img {
 	vertical-align: middle;
@@ -1897,7 +1901,7 @@ header .logo a {
  * ------------------------------------------------------------------
  */
 .popup-modal {
-	max-width: 550px;
+	width: 60%;
 	background: #FFFFFF;
 	position: relative;
 	margin: 0 auto;
@@ -1910,6 +1914,7 @@ header .logo a {
 }
 .popup-modal .description-box {
 	padding: 1.8rem 3.6rem 3rem;
+	border-top: 2px solid #02779e;
 }
 .popup-modal .description-box h4 {
 	font-family: 'Montserrat', sans-serif;
