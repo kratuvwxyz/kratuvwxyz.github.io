@@ -1608,6 +1608,12 @@ header .logo a {
 	.button-section [class*="col-"] .button:first-child {
 		margin-right: 0;
 	}
+	.centerText600 {
+		text-align: center;
+	}
+	.centerText600 li {
+		
+	}
 }
 @media only screen and (max-width:600px) {
 	.intro-info {
