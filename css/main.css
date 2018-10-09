@@ -2205,7 +2205,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #stats {
-	background: #02779e;
+	background: transparent;
 	padding-top: 7.2rem;
 	padding-bottom: 6rem;
 	text-align: center;
@@ -2222,7 +2222,7 @@ header .logo a {
 }
 #stats .icon-part i {
 	font-size: 4.8rem;
-	color: #000000;
+	color: #ffffff;
 }
 #stats .stat-count {
 	color: #FFFFFF;
@@ -2233,7 +2233,7 @@ header .logo a {
 	color: white;
 }
 #stats .stat-title {
-	color: rgba(255, 255, 255, 0.5);
+	color: #ffffff;
 }
 
 /**
