@@ -1262,6 +1262,7 @@ header .logo a {
 	border-right: 10px solid #02779e;
 	border-top: 10px solid #02779e;
 	padding-left: 20px;
+	letter-spacing: 2px;
 	background-color: rgba(0, 0, 0, 0.5);
 }
 .main-navigation li.current > a {
