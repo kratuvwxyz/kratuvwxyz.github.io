@@ -1271,6 +1271,7 @@ header .logo a {
 	border: 10px solid transparent;
 	padding: 10px;
 	cursor: none;
+	letter-spacing: 0px;
 }
 
 /**
@@ -1318,6 +1319,10 @@ header .logo a {
 	display: table;
 	position: relative;
 	text-align: center;
+	-moz-box-shadow: inset 0px -750px 500px -500px #111;
+    -webkit-box-shadow: inset 0px -750px 500px -500px #111;
+    -o-box-shadow: inset 0px -750px 500px -500px #111;
+    box-shadow: inset 0px -750px 500px -500px #111;
 }
 .intro-overlay {
 	position: absolute;
@@ -1976,11 +1981,11 @@ header .logo a {
 	transition: all 0.3s ease-in-out;
 }
 .popup-modal .link-box a:first-child {
-	border-right: 1px solid rgba(200, 200, 200, 0.1);
+	border-right: 10px solid rgba(200, 200, 200, 0.9);
 }
 .popup-modal .link-box a:hover {
 	background: #02779e;
-	border: none;
+/* 	border: none; */
 }
 @media only screen and (max-width:600px) {
 	.popup-modal {
@@ -2118,7 +2123,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #services {
-	background: #313131 url(../images/bg.jpg) no-repeat center;
+	background:url(../images/bg.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -2126,6 +2131,10 @@ header .logo a {
 	padding-bottom: 12rem;
 	color: white;
 	position: relative;
+	-moz-box-shadow: inset 0px -850px 500px -500px #151515;
+    -webkit-box-shadow: inset 0px -850px 500px -500px #151515;
+    -o-box-shadow: inset 0px -850px 500px -500px #151515;
+    box-shadow: inset 0px -850px 500px -500px #151515;
 }
 #services .overlay {
 	position: absolute;
@@ -2444,7 +2453,7 @@ header .logo a {
 	margin-bottom: 2.1rem;
 }
 .contact-info .icon i {
-	font-size: 4.2rem;
+	font-size: 3rem;
 	color: #FFFFFF;
 }
 .contact-info h5 {

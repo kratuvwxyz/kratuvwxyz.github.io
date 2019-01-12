@@ -32,19 +32,19 @@
     <meta charset="utf-8">
     <!--just for auto-refresh or redirect use the following meta tag-->
     <!--<meta http-equiv="refresh" content="10" />-->
-    <!--<meta http-equiv="refresh" content="0; url=http://website.com/" />-->
+    <!--<meta http-equiv="refresh" content="0; url=http://desaign.me" />-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
     <!--mobile specific metas-->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <!--basic page needs-->
-    <meta name="author" content="#DÉSÃIGNER ¯\_(ツ)_/¯" />
-    <meta name="description" content="#"/> 
-    <meta name="keywords" content="#"/>
+    <meta name="author" content="DÉSÃIGNER" />
+    <meta name="description" content="Portfolio and Resume for Kratu Desai, UI and UX Designer, Full-stack developer and Visual Designer."/> 
+    <meta name="keywords" content="Portfolio, Resume, Kratu, Desai, UI, UX, Designer, Developer, Full-stack, Visual, Graphic, Design, Website, Freelancer"/>
     
     <!--favicons-->
-    <link rel="shortcut icon" type="image/gif" href="https://raw.githubusercontent.com/kratuvwxyz/assets2/master/images/favicon.gif" />
+    <link rel="shortcut icon" type="image/gif" href="images/favicon.gif" />
     
        <!--:::::::::::::::::::::::::::::::::::::::
   Stylesheets
@@ -144,24 +144,6 @@
 	gtag('js', new Date());
 
 	gtag('config', 'UA-127147097-1');
-		
-	$(function(){
-	    $.each(document.images, function(){
-		       var this_image = this;
-		       var src = $(this_image).attr('src') || '' ;
-		       if(!src.length > 0){
-			   //this_image.src = options.loading; // show loading
-			   var lsrc = $(this_image).attr('lsrc') || '' ;
-			   if(lsrc.length > 0){
-			       var img = new Image();
-			       img.src = lsrc;
-			       $(img).load(function() {
-				   this_image.src = this.src;
-			       });
-			   }
-		       }
-		   });
-	  });
 	</script>
 
 </head>
@@ -207,7 +189,7 @@
    			<div class="col-twelve">
 
 	   			<h5>Hello, World.</h5>
-	   			<h1>I'm Kratu De<span style="color:#02779e;">sai</span>.</h1>
+	   			<h1>I'm Kratu Desai.</h1>
 
 	   			<p class="intro-position">
 	   				<span>UI/UX Designer</span>
@@ -224,10 +206,12 @@
 
    	<ul class="intro-social">        
 		 <li><a href="https://github.com/kratuvwxyz" target="_blank"><i class="fa fa-github"></i></a></li>
-         <li><a href="https://www.linkedin.com/in/desaignstudio/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-         <li><a href="https://www.facebook.com/desaignstudio" target="_blank"><i class="fa fa-facebook"></i></a></li>
+         <li><a href="https://www.linkedin.com/in/desaigner/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+         <li><a href="https://www.facebook.com/desaignstudio" target="_blank"><i class="fa fa-facebook"></i></a></li><!--
+
          <li><a href="https://twitter.com/desaignstudio" target="_blank"><i class="fa fa-twitter"></i></a></li>
          <li><a href="https://www.behance.net/desaigner" target="_blank"><i class="fa fa-behance"></i></a></li>
+-->
       </ul> <!-- /intro-social -->      	
 
    </section> <!-- /intro -->
@@ -342,7 +326,7 @@
    	<div class="row button-section">
    		<div class="col-twelve">
    			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
-   			<a href="images/kratu-CV-1001.pdf" target="_black" title="Download CV" class="button button-primary" download>Download CV</a>
+   			<a href="images/kratu-CV.pdf" target="_black" title="Download CV" class="button button-primary" download>Download CV</a>
    		</div>   		
    	</div>
 
@@ -695,6 +679,9 @@
 						
 					<!-- modal popups - begin
 					============================================================= -->
+					
+<!-- 					#1 -->
+
 					<div id="modal-01" class="popup-modal slider mfp-hide">	
 
 						<div class="media">
@@ -748,10 +735,13 @@
 
 						<div class="link-box">
 						<a href="http://www.mygrocery.shop" target="_blank">Website</a>
-							<a href="#" class="popup-modal-dismiss">Close</a>
-						</div>		      
+						<a href="https://github.com/kratuvwxyz/myGroceryShop" target="_blank">GitHub</a>
+						</div>		
+						<a href="#" class="popup-modal-dismiss btn btn-light btn-lg btn-block" style="text-transform: uppercase; letter-spacing: 3px;"><span style="color: white; font-weight: bolder; font-size:15px;"><</span> Back to Portfolio</a>      
 
 					</div> <!-- /modal-01 -->
+					
+<!-- 					#2 -->
 
 					<div id="modal-02" class="popup-modal slider mfp-hide">	
 
@@ -805,10 +795,13 @@
 
 					<div class="link-box">
 					<a href="http://jalpadance.com" target="_blank">Website</a>
-						<a href="#" class="popup-modal-dismiss">Close</a>
-					</div>		      
+					<a href="https://www.facebook.com/indiandanceform/" target="_blank">Facebook</a>
+					</div>		
+					<a href="#" class="popup-modal-dismiss btn btn-light btn-lg btn-block" style="text-transform: uppercase; letter-spacing: 3px;"><span style="color: white; font-weight: bolder; font-size:15px;"><</span> Back to Portfolio</a>      
 
 					</div> <!-- /modal-02 -->
+					
+<!-- 					#3 -->
 
 					<div id="modal-03" class="popup-modal slider mfp-hide">	
 
@@ -821,10 +814,17 @@
 								<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
 								<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
 								<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
 							</ol>
 							<div class="carousel-inner">
 								<div class="carousel-item active">
-								<img class="d-block w-100" src="images/portfolio/modals/timeBudgetment/1.png" alt="First slide">
+								<img class="d-block w-100" src="images/portfolio/modals/timeBudgetment/11.jpg" alt="WireFrame">
+								</div>
+								<div class="carousel-item">
+								<img class="d-block w-100" src="images/portfolio/modals/timeBudgetment/12.jpg" alt="Second slide">
+								</div>
+								<div class="carousel-item">
+								<img class="d-block w-100" src="images/portfolio/modals/timeBudgetment/1.png" alt="Second slide">
 								</div>
 								<div class="carousel-item">
 								<img class="d-block w-100" src="images/portfolio/modals/timeBudgetment/2.png" alt="Second slide">
@@ -861,11 +861,14 @@
 					</div>
 
 					<div class="link-box">
-					<a href="http://timebudgetment.com" target="_blank">Details</a>
-						<a href="#" class="popup-modal-dismiss">Close</a>
-					</div>		      
+					<a href="http://timebudgetment.com" target="_blank">Website</a>
+					<a>GitHub</a>
+					</div>		
+					<a href="#" class="popup-modal-dismiss btn btn-light btn-lg btn-block" style="text-transform: uppercase; letter-spacing: 3px;"><span style="color: white; font-weight: bolder; font-size:15px;"><</span> Back to Portfolio</a>      	      
 
 					</div> <!-- /modal-03 -->
+					
+<!-- 					#4 -->
 
 					<div id="modal-04" class="popup-modal slider mfp-hide">	
 
@@ -906,11 +909,13 @@
 					</div>
 
 					<div class="link-box">
-					<a href="https://kratuvwxyz.github.io/sellSumDonuts/#" target="_blank">Details</a>
-						<a href="#" class="popup-modal-dismiss">Close</a>
-					</div>		      
-
+					<a href="https://kratuvwxyz.github.io/sellSumDonuts/#" target="_blank">Let's Play</a>
+					<a href="https://github.com/kratuvwxyz/sellSumDonuts" target="_blank">GitHub</a>
+					</div>		
+					<a href="#" class="popup-modal-dismiss btn btn-light btn-lg btn-block" style="text-transform: uppercase; letter-spacing: 3px;"><span style="color: white; font-weight: bolder; font-size:15px;"><</span> Back to Portfolio</a>
 					</div> <!-- /modal-04 -->
+					
+<!-- 					#5 -->
 
 					<div id="modal-05" class="popup-modal slider mfp-hide">	
 
@@ -964,11 +969,13 @@
 					</div>
 
 					<div class="link-box">
-					<a href="https://mighty-cliffs-14463.herokuapp.com/home" target="_blank">Details</a>
-						<a href="#" class="popup-modal-dismiss">Close</a>
-					</div>		      
-
+					<a href="https://mighty-cliffs-14463.herokuapp.com/home" target="_blank">Website</a>
+					<a href="https://github.com/kratuvwxyz/RealGymPal" target="_blank">GitHub</a>
+					</div>		
+					<a href="#" class="popup-modal-dismiss btn btn-light btn-lg btn-block" style="text-transform: uppercase; letter-spacing: 3px;"><span style="color: white; font-weight: bolder; font-size:15px;"><</span> Back to Portfolio</a>
 					</div> <!-- /modal-05 -->
+					
+<!-- 					#6 -->
 
 					<div id="modal-06" class="popup-modal slider mfp-hide">	
 
@@ -1029,11 +1036,13 @@
 					</div>
 
 					<div class="link-box">
-					<a href="https://clicky-cards-02.herokuapp.com/" target="_blank">Play</a>
-						<a href="#" class="popup-modal-dismiss">Close</a>
-					</div>		      
-
+					<a href="https://clicky-cards-02.herokuapp.com/" target="_blank">Let's Play</a>
+					<a href="https://github.com/kratuvwxyz/clickyCards" target="_blank">GitHub</a>
+					</div>		
+					<a href="#" class="popup-modal-dismiss btn btn-light btn-lg btn-block" style="text-transform: uppercase; letter-spacing: 3px;"><span style="color: white; font-weight: bolder; font-size:15px;"><</span> Back to Portfolio</a>
 					</div> <!-- /modal-06 -->
+					
+<!-- 					#7 -->
 
 					<div id="modal-07" class="popup-modal slider mfp-hide">	
 
@@ -1078,11 +1087,13 @@
 					</div>
 
 					<div class="link-box">
-					<a href="https://kratuvwxyz.github.io/RockPaperScissorsGame/" target="_blank">Details</a>
-					<a href="#" class="popup-modal-dismiss">Close</a>
-					</div>		      
-
+					<a href="https://kratuvwxyz.github.io/RockPaperScissorsGame/" target="_blank">Let's Play</a>
+					<a href="https://github.com/kratuvwxyz/RockPaperScissorsGame" target="_blank">GitHub</a>
+					</div>		
+					<a href="#" class="popup-modal-dismiss btn btn-light btn-lg btn-block" style="text-transform: uppercase; letter-spacing: 3px;"><span style="color: white; font-weight: bolder; font-size:15px;"><</span> Back to Portfolio</a>
 					</div> <!-- /modal-07 -->
+					
+<!-- 					#8 -->
 
 					<div id="modal-08" class="popup-modal slider mfp-hide">	
 
@@ -1142,12 +1153,17 @@
 						<div class="categories"><span style="color:black;">Tools:</span> JavaScript, Node.js, Express.js, Passport.js, Handlebars.js, MySQL DB, GitHub</div>			               
 					</div>
 
+<!--
 					<div class="link-box">
 					<a href="#" target="_blank">Details</a>
 						<a href="#" class="popup-modal-dismiss">Close</a>
-					</div>		      
+					</div>	
+-->	      
+					<a href="#" class="popup-modal-dismiss btn btn-light btn-lg btn-block" style="text-transform: uppercase; letter-spacing: 3px;"><span style="color: white; font-weight: bolder; font-size:15px;"><</span> Back to Portfolio</a>
 
 					</div> <!-- /modal-08 -->
+					
+<!-- 					#9 -->
 
 					<div id="modal-09" class="popup-modal slider mfp-hide">	
 
@@ -1184,11 +1200,13 @@
 						</div>
 	
 						<div class="link-box">
-						<a href="https://kratuvwxyz.github.io/giftastic/" target="_blank">Details</a>
-							<a href="#" class="popup-modal-dismiss">Close</a>
-						</div>		      
-	
+						<a href="https://kratuvwxyz.github.io/giftastic/" target="_blank">Website</a>
+						<a href="https://github.com/kratuvwxyz/giftastic" target="_blank">GitHub</a>
+						</div>		
+						<a href="#" class="popup-modal-dismiss btn btn-light btn-lg btn-block" style="text-transform: uppercase; letter-spacing: 3px;"><span style="color: white; font-weight: bolder; font-size:15px;"><</span> Back to Portfolio</a>	
 					</div> <!-- /modal-09 -->
+					
+<!-- 					#10 -->
 
 					<div id="modal-10" class="popup-modal slider mfp-hide">	
 
@@ -1241,10 +1259,12 @@ and About Us web pages built with Adobe Experience Manager. Many other branding 
 		
 							<div class="link-box">
 							<a href="https://www.superiorhealthplan.com/discover-superior.html" target="_blank">Discover Superior</a>
-								<a href="#" class="popup-modal-dismiss">Close</a>
-							</div>		      
-		
+							<a href="https://www.superiorhealthplan.com/members-first.html" target="_blank">Members First</a>
+							</div>		
+							<a href="#" class="popup-modal-dismiss btn btn-light btn-lg btn-block" style="text-transform: uppercase; letter-spacing: 3px;"><span style="color: white; font-weight: bolder; font-size:15px;"><</span> Back to Portfolio</a>		
 					</div> <!-- /modal-10 -->
+					
+<!-- 					#11 -->
 
 					<div id="modal-11" class="popup-modal slider mfp-hide">	
 
@@ -1307,8 +1327,11 @@ and About Us web pages built with Adobe Experience Manager. Many other branding 
 									<a href="https://kratuvwxyz.github.io/Psychic-Word-Game/" target="_blank">Psychic Word</a>
 									<a href="https://kratuvwxyz.github.io/Psychic-Game/" target="_blank">Psychic Letter</a>
 							</div>	      
+							<a href="#" class="popup-modal-dismiss btn btn-light btn-lg btn-block" style="text-transform: uppercase; letter-spacing: 3px;"><span style="color: white; font-weight: bolder; font-size:15px;"><</span> Back to Portfolio</a>
 		
 					</div> <!-- /modal-11 -->
+					
+<!-- 					#12 -->
 	
 					<div id="modal-12" class="popup-modal slider mfp-hide">	
 
@@ -1358,9 +1381,9 @@ and About Us web pages built with Adobe Experience Manager. Many other branding 
 		
 						<div class="link-box">
 								<a href="http://apollotiles.com/" target="_blank">Website</a>
-								<a href="#" class="popup-modal-dismiss">Close</a>
-						</div>	      
-	
+								<a href="https://www.facebook.com/apollotiles" target="_blank">Facebook</a>
+								</div>		
+								<a href="#" class="popup-modal-dismiss btn btn-light btn-lg btn-block" style="text-transform: uppercase; letter-spacing: 3px;"><span style="color: white; font-weight: bolder; font-size:15px;"><</span> Back to Portfolio</a>	
 				</div> <!-- /modal-12 -->
 						
 						<!-- modal popups - end
@@ -1383,9 +1406,10 @@ and About Us web pages built with Adobe Experience Manager. Many other branding 
 
 			<div class="col-twelve">  
 			
-			<p style="font-family: 'IBM Plex Serif', serif;color:white;">Thank you for your time and consideration. My Mantra is simple, no one is perfect, and criticism is always welcome and expected. Your opinion matters. I hope you enjoy my work.</p>
+			<p style="font-family: 'IBM Plex Serif', serif;color:white;">Thank you for your time and consideration. I appreciate you stopping by. Are you on Linked In? Let’s connect there to build a network of like-minded people. See you soon! </p>
 			
 			<div class="action">
+				<a href="https://www.linkedin.com/in/desaigner/" target="_blank" class="button button-primary large">Linked In</a>
 				<a class="button button-primary large" href="http://desaign.studio" target="_blank">Explore More Work ></a>
 			</div>		     	
 
@@ -1624,7 +1648,7 @@ and About Us web pages built with Adobe Experience Manager. Many other branding 
 	<div class="row button-section">
 		<div class="col-twelve">
 			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
-			<a href="images/kratu-CV-1001.pdf" target="_black" title="Download CV" class="button button-primary" download>Download CV</a>
+			<a href="images/kratu-CV.pdf" target="_black" title="Download CV" class="button button-primary" download>Download CV</a>
 		</div>   		
 	</div>
 		
@@ -1643,7 +1667,7 @@ and About Us web pages built with Adobe Experience Manager. Many other branding 
    			<h5>Services</h5>
    			<h1>What Can I Do For You?</h1>
 
-   			<p class="lead">The core of any product must be easy to understand and emotionally compelling. We strive to deliver product that is simple and clear, yet innovative and creative.</p>
+   			<p class="lead">The core of any product must be easy to understand and emotionally compelling. I strive to deliver product that is simple and clear, yet innovative and creative.</p>
 
    		</div>   		
    	</div> <!-- /section-intro -->
@@ -1654,13 +1678,14 @@ and About Us web pages built with Adobe Experience Manager. Many other branding 
 
 	      	<div class="service">	
 
-	      		<span class="icon"><i class="icon-earth"></i></span>            
+<!-- 	      		<span class="icon"><i class="icon-earth"></i></span>             -->
 
 	            <div class="service-content">	
 
 	            	 <h3>Full-Stack Website</h3>
 
 		            <p class="desc"> 
+			            Front-End and Back-End, Responsive and Interactive, Data-driven and Socially connected, UX and UI, Personal and Commercial.
 	         		</p>
 	         		
 	         	</div> 	         	 
@@ -1669,13 +1694,14 @@ and About Us web pages built with Adobe Experience Manager. Many other branding 
 
 				<div class="service">	
 
-					<span class="icon"><i class="icon-window"></i></span>                          
+<!-- 					<span class="icon"><i class="icon-window"></i></span>                           -->
 
 	            <div class="service-content">	
 
-	            	<h3>Front-End Development</h3>  
+	            	<h3>Brand & Branding</h3>  
 
 		            <p class="desc"> 
+			            Brand Identity, Logo with Iconic Typography, Visual Guidelines and A to Z that deliver your product to the appropriate market.
 	         		</p>
 
 	            </div>	                          
@@ -1684,19 +1710,21 @@ and About Us web pages built with Adobe Experience Manager. Many other branding 
 
 			   <div class="service">
 
-			   	<span class="icon"><i class="icon-paint-brush"></i></span>		            
+<!-- 			   	<span class="icon"><i class="icon-paint-brush"></i></span>		             -->
 
 	            <div class="service-content">
 
-	            	<h3>UI/UX Design</h3>
+	            	<h3>Campaign & Marketing</h3>
 
 		            <p class="desc"> 
-	        			</p> 
+			            I listen to you carefully, create ideas strategically, and communicate your product's identity around the world.
+	        		</p> 
 
 	            </div> 	            	               
 
 			   </div> <!-- /service -->
 
+<!--
 				<div class="service">
 
 					<span class="icon"><i class="icon-toggles"></i></span>	              
@@ -1710,8 +1738,10 @@ and About Us web pages built with Adobe Experience Manager. Many other branding 
 	         		
 	            </div>                
 
-				</div> <!-- /service -->
+				</div>
+--> <!-- /service -->
 
+<!--
 			   <div class="service">
 
 			   	<span class="icon"><i class="icon-image"></i></span>	            
@@ -1725,8 +1755,10 @@ and About Us web pages built with Adobe Experience Manager. Many other branding 
 
 	            </div>	               
 
-			   </div> <!-- /service -->
+			   </div>
+--> <!-- /service -->
 
+<!--
 			   <div class="service">
 
 			   	<span class="icon"><i class="icon-pen"></i></span>	   	           
@@ -1740,7 +1772,8 @@ and About Us web pages built with Adobe Experience Manager. Many other branding 
 	        			
 	            </div>	               
 
-			   </div> <!-- /service -->
+			   </div>
+--> <!-- /service -->
 
 	      </div> <!-- /services-list -->
    		
@@ -1776,13 +1809,13 @@ and About Us web pages built with Adobe Experience Manager. Many other branding 
  						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
                   </div>
                   <div class="form-field">
-	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Please enter valid email" value="" required="">
+	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Please enter a valid email address" value="" required="">
 	               </div>
                   <div class="form-field">
-	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject/Job/Role" value="">
 	               </div>                       
                   <div class="form-field">
-	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+	                 	<textarea name="contactMessage" id="contactMessage" placeholder="Message" rows="10" cols="50" required=""></textarea>
 	               </div>                      
                  <div class="form-field">
                      <button class="submitform">Submit</button>
@@ -1869,18 +1902,20 @@ and About Us web pages built with Adobe Experience Manager. Many other branding 
 					<img src="https://kratuvwxyz.github.io/assets/images/footer/download.svg" alt="desaign llc" width="75%" />
 				</div>
 				<div class="copyright">
-					<span>Copyright &copy; <a href="https:desaign.app">DÉSÃIGN.STUDIO</a> 2011 - 2018. All Rights Reserved.</span>	         	
+					<span>Copyright &copy; 2011-<script type="text/javascript">var d = new Date();document.write(d.getFullYear());</script> <a href="https:desaign.app" style="color: #aaa;">DÉSÃIGN.STUDIO</a> All Rights Reserved.</span>	         	
 				</div>		                  
 			</div>
 
 			<div class="col-five tab-full pull-right social">
 
 				<ul class="footer-social" style="padding:20px;">        
-					<li><a href="https://github.com/kratuvwxyz" target="_blank"><i class="fa fa-github"></i></a></li>
-					<li><a href="https://www.linkedin.com/in/desaignstudio/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-					<li><a href="https://www.facebook.com/desaignstudio" target="_blank"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="https://github.com/kratuvwxyz" target="_blank"><i class="fa fa-github"></i></a></li> 
+					<li><a href="https://www.linkedin.com/in/desaigner/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+					<li><a href="https://www.facebook.com/desaignstudio" target="_blank"><i class="fa fa-facebook"></i></a></li><!--
+
 					<li><a href="https://twitter.com/desaignstudio" target="_blank"><i class="fa fa-twitter"></i></a></li>
 					<li><a href="https://www.behance.net/desaigner" target="_blank"><i class="fa fa-behance"></i></a></li>
+-->
 				</ul> 
 
 			</div>
