@@ -209,7 +209,36 @@
 
    			<div class="col-twelve">
 
-	   			<h5>Hello, World.</h5>
+	   			<h5><span id="greeting">Hello, World</span>!</h5>
+	   			<script type="text/javascript">
+						
+						// greetings
+						
+							var thehours = new Date().getHours();
+							var themessage;
+							var earlyMorning = ('Hello World');
+							var morning = ('Good Morning');
+							var afternoon = ('Good Afternoon');
+							var evening = ('Good Evening');
+						
+							if (thehours >= 0 && thehours < 4) {
+								themessage = earlyMorning; 
+						
+							} else if (thehours >= 4 && thehours < 12) {
+								themessage = morning; 
+						
+							} else if (thehours >= 12 && thehours < 17) {
+								themessage = afternoon;
+						
+							} else if (thehours >= 17 && thehours < 24) {
+								themessage = evening;
+							}
+				
+							document.getElementById("greeting").innerHTML = themessage;
+						
+						// greetings ends
+						
+					</script>
 	   			<h1>I'm Kratu Desai.</h1>
 
 	   			<p class="intro-position">
@@ -250,7 +279,7 @@
 
    			<div class="intro-info">
 
-   				<img src="images/sai_8x10.jpg" alt="Profile Picture">
+<!--    				<img src="images/sai_8x10.jpg" alt="Profile Picture"> -->
 
    				<p class="lead">With Seven years of hands-on experience, I’m a highly motivated <span style="color:#666666;">full-stack developer</span> specializing in
 						front-end development. Experienced with all stages of the development cycle for dynamic and creative
@@ -265,7 +294,7 @@
    		<div class="col-five tab-full centerText600">
 
    			<h3>Profile</h3>
-   			<p style="padding-right:20px;">Expert in UI/UX and visual design. Strong marketing and project management background with the ability to work at a fast pace and with minimal supervision. I work with an aim, commitment, and honesty.</p>
+   			<p class="pad20">Expert in UI/UX and visual design. Strong marketing and project management background with the ability to work at a fast pace and with minimal supervision. I work with an aim, commitment, and honesty.</p>
 
    			<ul class="info-list">
    				
