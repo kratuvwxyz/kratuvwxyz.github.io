@@ -17,7 +17,7 @@ With eight years of hands-on experience, I’m a highly motivated full-stack dev
 
 #### Resume
 
-Please review my [resume](https://desaign.app). References available upon request.
+Please review my [resume](http://desaigner.info/images/kratu-CV.pdf). References available upon request.
 
 **I'd Love To Hear From You.**
 Thank you for your time and consideration. Your opinion matters and criticism is always welcome and expected. I hope you enjoy my work. Please contact me at <a href="mailto:github@desaign.studio?Subject=Message from Github">github@desaign.studio</a>.
