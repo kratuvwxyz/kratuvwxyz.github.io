@@ -1,9 +1,9 @@
 /**
  * =================================================================== 
  *
- *  Kards v1.0 Main Stylesheet
+ *  POWERED BY DESAIGN.STUDIO
  *  url: styleshout.com
- *  03-01-2016
+ *  1907281140
  *  ------------------------------------------------------------------
  *  TOC:
  *  01. webfonts and iconfonts
@@ -38,6 +38,8 @@
 @import url("fonts.css");
 @import url("font-awesome/css/font-awesome.min.css");
 @import url("micons/micons.css");
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif:500|Montserrat:400,500,700|Playfair+Display&display=swap');
+
 
 
 /** 
@@ -71,7 +73,8 @@ html, body {
 }
 body {
 	background: #151515;
-	font-family: 'IBM Plex Serif', serif;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
 	font-size: 1.7rem;
 	line-height: 3rem;
 	color: #6e6e6e;
@@ -90,8 +93,11 @@ a, a:visited {
 	transition: all 0.3s ease-in-out;
 }
 a:hover, a:focus, a:active {
-	/* color: #02779e;
-	outline: 0; */
+	/* color: #02779e; */
+	color: darkred;
+	outline: 0;
+	font-weight: 500;
+	letter-spacing: 1px;
 	text-decoration: none;
 }
 
@@ -102,7 +108,7 @@ a:hover, a:focus, a:active {
  * ------------------------------------------------------------------- 
  */
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'IBM Plex Serif', serif;
 	color: #313131;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
@@ -112,13 +118,13 @@ h3, .h03, h4, .h04 {
 	margin-bottom: 1.8rem;
 }
 h5, .h05, h6, .h06 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'IBM Plex Serif', serif;
 	margin-bottom: 1.2rem;
 }
 h1, .h01 {
 	font-size: 3.1rem;
 	line-height: 1.355;
-	letter-spacing: -.1rem;
+	letter-spacing: 1px;
 }
 @media only screen and (max-width:600px) {
 	h1, .h01 {
@@ -129,6 +135,7 @@ h1, .h01 {
 h2, .h02 {
 	font-size: 2.4rem;
 	line-height: 1.25;
+	letter-spacing: 1px;
 }
 h3, .h03 {
 	font-size: 2rem;
@@ -154,7 +161,8 @@ p img {
 	margin: 0;
 }
 p.lead {
-	font-family: 'IBM Plex Serif', serif;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
 	font-size: 2rem;
 	line-height: 1.8;
 	color: #888888;
@@ -709,7 +717,8 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-	background: #02779e;
+	background: #d04a3a;
+	font-weight: 500;
 }
 button.full-width, .button.full-width {
 	width: 100%;
@@ -737,8 +746,8 @@ button.stroke.large, .button.stroke.large {
 	line-height: 5.4rem !important;
 }
 button.stroke:hover, .button.stroke:hover {
-	border: 3px solid #02779e;
-	color: #02779e;
+	border: 3px solid #d04a3a;
+	color: #d04a3a;
 }
 button::-moz-focus-inner, input::-moz-focus-inner {
 	border: 0;
@@ -942,7 +951,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  */
 .skill-bars {
 	list-style: none;
-	margin: 6rem 0 3rem;
+	margin: 3rem 0 3rem;
 }
 .skill-bars li {
 	height: .6rem;
@@ -955,13 +964,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .skill-bars li strong {
 	position: absolute;
 	left: 0;
-	top: -3rem;
+	top: 1rem;
 	font-family: 'Montserrat', sans-serif;
 	color: #313131;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
-	font-size: 1.5rem;
-	line-height: 2.4rem;
+	font-size: 1rem;
+	line-height: 2rem;
 }
 .skill-bars li .progress {
 	background: #313131;
@@ -1013,6 +1022,26 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .skill-bars li .percent95  { width: 95%; }
 .skill-bars li .percent100 { width: 100%; }
 
+/**
+ * Parallax 
+ * -------------------------------------------------------------------
+ */
+
+ .parallax1 {
+
+	/* The image used */
+	background-image: url("images/white-waves.png");
+	background-color: #02779e;
+
+	/* Set a specific height */
+	/* min-height: 100px;  */
+
+	/* Create the parallax scrolling effect */
+	/* background-attachment: fixed;
+	background-position: center; */
+	background-repeat: repeat;
+	
+}
 
 /** 
  * ===================================================================
@@ -1027,7 +1056,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	color: #7d7d7d;
 }
 .section-intro {
-	max-width: 700px;
+	max-width: 960px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -1359,7 +1388,7 @@ header .logo a {
 	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 .intro-content h5 {
-	color: #02779e;
+	color: #d04a3a;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2.3rem;
 	line-height: 1.565;
@@ -1533,14 +1562,15 @@ header .logo a {
 	float: left;
 }
 .intro-info .lead {
-	text-align: justify;
+	text-align: left;
+	letter-spacing: .0625em;
 /* 	padding-left: 13rem; */
 }
 
 .about-content {
 	position: relative;
 	text-align: left;
-	max-width: 850px;
+	max-width: 1024px;
 	margin-bottom: 3.6rem;
 }
 .about-content h3 {
@@ -1573,7 +1603,7 @@ header .logo a {
 	line-height: 1;
 }
 .about-content .skill-bars {
-	margin-top: 6rem;
+	margin-top: 3rem;
 }
 
 .button-section {
@@ -1584,6 +1614,14 @@ header .logo a {
 }
 .button-section [class*="col-"] .button:first-child {
 	margin-right: 4rem;
+}
+
+.qualitiesUL {
+	width: 95%;
+}
+
+.qualitiesUL li {
+	padding-bottom: .75em;
 }
 
 /**
@@ -1733,6 +1771,48 @@ header .logo a {
 	position: absolute;
 	left: 0;
 	bottom: 0;
+}
+
+
+/* toggle up and down for extra content */
+
+.myUL {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;	
+}
+
+.myUL ul {
+	list-style-type: circle;
+}
+
+.caret {
+	cursor: pointer;
+	-webkit-user-select: none; /* Safari 3.1+ */
+	-moz-user-select: none; /* Firefox 2+ */
+	-ms-user-select: none; /* IE 10+ */
+	user-select: none;
+}
+
+.caret:before {
+	content: "\25B6";
+	color: #02779e;
+	display: inline-block;
+	margin-right: 6px;
+}
+
+.caret-down:before {
+	-ms-transform: rotate(90deg); /* IE 9 */
+	-webkit-transform: rotate(90deg); /* Safari */
+	transform: rotate(90deg);  
+}
+
+.nested1 {
+	display: none;
+}
+
+.active1 {
+	display: block;
 }
 
 /**
@@ -2548,7 +2628,7 @@ footer .social {
 }
 footer .footer-social {
 	display: inline-block;
-	font-size: 2.1rem;
+	font-size: 3rem;
 	margin: 0;
 	padding: 0;
 	position: relative;
@@ -2618,6 +2698,7 @@ footer .copyright span:last-child::after {
 	line-height: 6.6rem;
 	text-align: center;
 	background: #02779e;
+	border: 2px solid black;
 	color: #FFFFFF;
 	text-align: center;
 	text-transform: uppercase;
