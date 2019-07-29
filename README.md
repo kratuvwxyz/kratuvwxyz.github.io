@@ -4,8 +4,6 @@
 
 With eight years of hands-on experience, I’m a highly motivated full-stack developer and visual designer specializing in front-end development and UI/UX design. Experienced with all stages of the development cycle for dynamic and creative projects. Passionate for design, layout, typography and user experience to create outstanding work.
 
-#### Hire Me!
-
 * Strong marketing and project management background with the ability to work at a fast pace and with minimal supervision.
 * Self-driven and strategic thinker to develop unique and interactive solutions to address business needs.
 * Pay attention to the details and quality improvement while juggling multiple projects simultaneously.
@@ -15,8 +13,7 @@ With eight years of hands-on experience, I’m a highly motivated full-stack dev
 * Comfortable working on Mac OS, Linux or Windows platform.
 * I work with an aim, commitment, and honesty.
 
-### My Mantra
-### *Chase Perfection to Catch Excellence*.
+### My Mantra: *Chase Perfection to Catch Excellence*.
 
 #### Resume
 
