@@ -1254,7 +1254,7 @@
 	 display: block;
 	 width: 100%;
 	 font-family: 'Montserrat', sans-serif;
-	 font-size: 4rem;
+	 font-size: 3rem;
 	 text-align: center;
 	 position: absolute;
 	 background-image: url("../images/topBackground.png");
@@ -1268,7 +1268,7 @@
 	 padding: 40px 0;
 	 margin: 40px 0;
 	 width: 100%;
-	 height: 100vh;
+	 /* height: 100vh; */
 	 clear: both;
 	 display: none;
 	 columns: 500px auto;
@@ -1315,29 +1315,24 @@
   * header styles
   * --------------------------------------------------------------- 
   */
- @media only screen and (max-width:1024px) {
-	 header .top-bar {
- /* 		left: 60px; */
-	 }
+ @media only screen and (max-width:1440px) {
+	.main-navigation {
+	   columns: 350px auto;
+	}
  }
  @media only screen and (max-width:768px) {
-	 header .top-bar {
- /* 		left: 50px; */
-	 }
-	 
+	 .main-navigation {
+		height: 100vh;
+	 }	 
 	 .pad20 {
 		 padding-left: 20px;
 	 }
  }
  @media only screen and (max-width:600px) {
-	 header .top-bar {
- /* 		left: 35px; */
-	 }
+
  }
  @media only screen and (max-width:400px) {
-	 header .top-bar {
- /* 		left: 25px; */
-	 }
+
  }
  
  
