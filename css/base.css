@@ -348,6 +348,10 @@ li {
 	display: block;
 }
 
+.hideHere {
+	display: none;
+}
+
 /**
  * links - (_basic.scss)
  * ------------------------------------------------------------------- 
@@ -692,7 +696,7 @@ textarea {
 	}
 	
 	.hideHere {
-		display: none;
+		display: block;
 	}
 
 }
@@ -735,7 +739,7 @@ textarea {
 	}
 	
 	.hideHere {
-		display: block;
+		display: none;
 	}
 
 }
