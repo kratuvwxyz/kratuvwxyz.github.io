@@ -167,6 +167,13 @@
 	 line-height: 1.8;
 	 color: #888888;
  }
+ p.lead strong {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 2rem;
+	line-height: 1.8;
+	color: #777777;
+ }
  @media only screen and (max-width:768px) {
 	 p.lead {
 		 font-size: 1.7rem;
