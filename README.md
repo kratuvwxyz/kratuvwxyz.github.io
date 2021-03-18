@@ -20,11 +20,6 @@ With ten years of hands-on experience, I’m a highly motivated full-stack devel
 #### My Mantra: 
 ## *Chase Perfection to Catch Excellence*.
 
-#
-#### Resume
-
-Please review my [resume](http://desaigner.info/images/kratu-CV.pdf). References available upon request.
-
 ###### &#160;
 <hr />
 
