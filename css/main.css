@@ -2091,10 +2091,16 @@ nav {
   #portfolio .folio-title {
     font-size: 3.1rem;
   }
+  .logo-book-hide {
+    display: none;
+  }
 }
 @media only screen and (max-width: 768px) {
   #portfolio .folio-title {
     font-size: 2.5rem;
+  }
+  .logo-book-hide {
+    display: block;
   }
 }
 @media only screen and (max-width: 400px) {
