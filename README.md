@@ -2,23 +2,23 @@
 
 #### Let me introduce myself.
 
-With ten years of hands-on experience, I’m a highly motivated full-stack developer and visual designer specializing in front-end development and UI/UX design. Experienced with all stages of the development cycle for dynamic and creative projects. Passionate for design, layout, typography and user experience to create outstanding work.
-
-#
-#### Skills
-
-* Strong marketing and project management background with the ability to work at a fast pace and with minimal supervision.
-* Self-driven and strategic thinker to develop unique and interactive solutions to address business needs.
-* Pay attention to the details and quality improvement while juggling multiple projects simultaneously.
-* Collaborative, a reliable team player and a great listener.
-* Always eager to learn, simplify challenges and invent new techniques.
-* Proficient in freehand illustration with pen, ink, and color.
-* Comfortable working on Mac OS, Linux or Windows platform.
-* I work with an aim, commitment, and honesty.
+With ten years of hands-on experience, I’m a highly motivated **full-stack developer and visual designer specializing in front-end development, UI/UX, and Graphic Design**. Experienced with all stages of the development cycle for dynamic and creative projects. Passionate for design, layout, typography and user experience to create outstanding work.
 
 #
 #### My Mantra: 
 ## *Chase Perfection to Catch Excellence*.
+
+#
+#### Skills
+
+- Strong marketing and project management background with the ability to work at a fast pace and with minimal supervision.
+- Self-driven and strategic thinker to develop unique and interactive solutions to address business needs.
+- Pay attention to the details and quality improvement while juggling multiple projects simultaneously.
+- Collaborative, a reliable team player and a great listener.
+- Always eager to learn, simplify challenges and invent new techniques.
+- Proficient in freehand illustration with pen, ink, and color.
+- Comfortable working on Mac OS, Linux or Windows platform.
+- I work with an aim, commitment, and honesty.
 
 ###### &#160;
 <hr />
