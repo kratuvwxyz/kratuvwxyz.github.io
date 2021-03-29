@@ -1717,11 +1717,11 @@ nav {
   margin-right: 4rem;
 }
 
-.qualitiesUL {
+.qualitiesUL, .skillsCenter {
   width: 95%;
 }
 
-.qualitiesUL li {
+.qualitiesUL li, .skillsCenter li {
   padding-bottom: 0.75em;
 }
 
@@ -1758,11 +1758,6 @@ nav {
   }
   .button-section [class*="col-"] .button:first-child {
     margin-right: 0;
-  }
-  .centerText600 {
-    text-align: center;
-  }
-  .centerText600 li {
   }
 }
 @media only screen and (max-width: 600px) {
