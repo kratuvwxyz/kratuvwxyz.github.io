@@ -1725,6 +1725,11 @@ nav {
   padding-bottom: 0.75em;
 }
 
+.skillsCenter li {
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
 /**
   * responsive:
   * about
