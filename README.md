@@ -26,7 +26,7 @@ With ten years of hands-on experience, I’m a highly motivated **full-stack dev
 
 ## CONTACT
 
-Thank you for your time and consideration. My mantra is simple, *chase perfection to catch excellence*. I hope you enjoy my work. **I'd love to hear from you.** Please email me at <a href="mailto:github@desaign.studio?Subject=Message from Github">github@desaign.studio</a>.
+Thank you for your time and consideration. I hope you enjoy my work. **I'd love to hear from you.** Please email me at <a href="mailto:github@desaign.studio?Subject=Message from Github">github@desaign.studio</a>.
 
 <hr/>
 
