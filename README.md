@@ -8,7 +8,7 @@ With ten years of hands-on experience, I’m a highly motivated **full-stack dev
 #### My Mantra: 
 ## *Chase Perfection to Catch Excellence*.
 
-#
+
 #### Skills
 
 - Strong marketing and project management background with the ability to work at a fast pace and with minimal supervision.
