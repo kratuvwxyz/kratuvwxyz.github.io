@@ -1717,11 +1717,13 @@ nav {
   margin-right: 4rem;
 }
 
-.qualitiesUL, .skillsCenter {
+.qualitiesUL,
+.skillsCenter {
   width: 95%;
 }
 
-.qualitiesUL li, .skillsCenter li {
+.qualitiesUL li,
+.skillsCenter li {
   padding-bottom: 0.75em;
 }
 
@@ -2103,6 +2105,7 @@ nav {
     display: block;
   }
 }
+
 @media only screen and (max-width: 400px) {
   #portfolio .folio-title {
     font-size: 2.2rem;
