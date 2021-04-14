@@ -1,5 +1,5 @@
 
-==================================================================================================
+
 
 KARDS is a modern and clean personal vCard website template. It has many cool features found
 in premium templates. It has timeline items, stats section, skillbars, working ajax form,
@@ -8,7 +8,7 @@ great on all devices from mobile to desktop. It's also retina ready so your site
 crisp and sharp on any device. Kards is the ideal template for creating digital personal resume 
 and portfolio website.
 
-==================================================================================================
+
 
 
 LICENSE:
