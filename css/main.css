@@ -2185,7 +2185,7 @@ nav {
   font-family: "Montserrat", sans-serif;
   font-size: 1.1rem;
   line-height: 1.8rem;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 0.1rem;
   display: block;
   text-align: left;
