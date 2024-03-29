@@ -110,6 +110,11 @@
   <script src="js/modernizr.js"></script>
   <script src="js/pace.min.js"></script>
   <script src="js/modernizr.custom.js"></script>
+  <script>
+    $(function () {
+      $('.lazy').lazy();
+    });
+  </script>
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127147097-1"></script>
@@ -203,7 +208,7 @@
         <h2>Let me introduce myself.</h2>
 
         <div class="intro-info">
-          <!-- <img loading="lazy" src="images/sai_8x10.jpg" alt="Profile Picture"> -->
+          <!-- <img class="lazy" src="images/sai_8x10.jpg" alt="Profile Picture"> -->
 
           <p class="lead">I am a comprehensive full-stack developer and visual design enthusiast with over 12 years of
             experience crafting innovative and user-centric digital solutions. From designing elegant front-end
@@ -374,7 +379,7 @@
         <h2>Explore Some of My Works.</h2>
 
         <div class="intro-info">
-          <!-- <img loading="lazy" src="images/sai_8x10.jpg" alt="Profile Picture"> -->
+          <!-- <img class="lazy" src="images/sai_8x10.jpg" alt="Profile Picture"> -->
 
           <p class="lead">Each project in my portfolio is a vibrant showcase of my talent in seamlessly blending
             functionality with aesthetics, resulting in immersive digital experiences that captivate audiences. With a
@@ -397,7 +402,7 @@
           <!-- Fashion Floors -->
           <div class="bgrid folio-item web mark">
             <div class="item-wrap">
-              <img loading="lazy" src="images/portfolio/intro-bg-sm/intro-bg-24-fashion-floors.jpg"
+              <img class="lazy" src="images/portfolio/intro-bg-sm/intro-bg-24-fashion-floors.jpg"
                 alt="Clients: Carpets By Conrad, Fashion Floors" />
               <a href="#modal-Fashion-Floors" class="overlay">
                 <div class="folio-item-table">
@@ -422,22 +427,28 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/portfolio/modals/fashionFloors/1.png" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/fashionFloors/1.png"
+                      alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/fashionFloors/2.png" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/fashionFloors/2.png"
+                      alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/fashionFloors/3.png" alt="Third slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/fashionFloors/3.png"
+                      alt="Third slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/fashionFloors/4.png" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/fashionFloors/4.png"
+                      alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/fashionFloors/5.png" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/fashionFloors/5.png"
+                      alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/fashionFloors/6.png" alt="Third slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/fashionFloors/6.png"
+                      alt="Third slide" />
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -481,7 +492,7 @@
           <!-- Tic-Tac-Toe -->
           <div class="bgrid folio-item web">
             <div class="item-wrap">
-              <img loading="lazy" src="images/portfolio/intro-bg-sm/intro-bg-25-tic-tac-toe.jpg"
+              <img class="lazy" src="images/portfolio/intro-bg-sm/intro-bg-25-tic-tac-toe.jpg"
                 alt="Project: Tic Tac Toe" />
               <a href="#modal-Tic-Tac-Toe" class="overlay">
                 <div class="folio-item-table">
@@ -504,16 +515,16 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/portfolio/modals/ticTacToe2/1.png" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/ticTacToe2/1.png" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/ticTacToe2/2.png" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/ticTacToe2/2.png" alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/ticTacToe2/3.png" alt="Third slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/ticTacToe2/3.png" alt="Third slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/ticTacToe2/4.png" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/ticTacToe2/4.png" alt="First slide" />
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -550,7 +561,7 @@
           <!-- New Diamonds Inc. -->
           <div class="bgrid folio-item web">
             <div class="item-wrap">
-              <img loading="lazy" src="images/portfolio/intro-bg-sm/intro-bg-22.jpg" alt="Client: New Diamonds, Inc." />
+              <img class="lazy" src="images/portfolio/intro-bg-sm/intro-bg-22.jpg" alt="Client: New Diamonds, Inc." />
               <a href="#modal-New-Diamonds-Inc" class="overlay">
                 <div class="folio-item-table">
                   <div class="folio-item-cell">
@@ -574,26 +585,26 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/portfolio/modals/aakashDiamondsInc/3.png"
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/aakashDiamondsInc/3.png"
                       alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/aakashDiamondsInc/2.png"
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/aakashDiamondsInc/2.png"
                       alt="Second slide" />
                   </div>
                   <!-- <div class="carousel-item">
-                      <img class="d-block w-100" src="images/portfolio/modals/aakashDiamondsInc/1.png" alt="Third slide" />
+                      <img class="d-block w-100 lazy" src="images/portfolio/modals/aakashDiamondsInc/1.png" alt="Third slide" />
                     </div> -->
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/aakashDiamondsInc/4.png"
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/aakashDiamondsInc/4.png"
                       alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/aakashDiamondsInc/5.png"
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/aakashDiamondsInc/5.png"
                       alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/aakashDiamondsInc/6.png"
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/aakashDiamondsInc/6.png"
                       alt="Third slide" />
                   </div>
                 </div>
@@ -641,7 +652,7 @@
           <!-- Employee Directory -->
           <div class="bgrid folio-item web">
             <div class="item-wrap">
-              <img loading="lazy" src="images/portfolio/intro-bg-sm/intro-bg-30-employee-directory.jpg"
+              <img class="lazy" src="images/portfolio/intro-bg-sm/intro-bg-30-employee-directory.jpg"
                 alt="Project: Employee Directory" />
               <a href="#modal-Employee-Directory" class="overlay">
                 <div class="folio-item-table">
@@ -666,27 +677,27 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/portfolio/modals/employeeDirectory/1.png"
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/employeeDirectory/1.png"
                       alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/employeeDirectory/2.png"
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/employeeDirectory/2.png"
                       alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/employeeDirectory/3.png"
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/employeeDirectory/3.png"
                       alt="Third slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/employeeDirectory/4.png"
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/employeeDirectory/4.png"
                       alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/employeeDirectory/5.png"
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/employeeDirectory/5.png"
                       alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/employeeDirectory/6.png"
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/employeeDirectory/6.png"
                       alt="First slide" />
                   </div>
                 </div>
@@ -727,7 +738,7 @@
           <!-- Lakeland Pharmacy -->
           <div class="bgrid folio-item web brand mark">
             <div class="item-wrap">
-              <img loading="lazy" src="images/portfolio/intro-bg-sm/intro-bg-26-lakeland.jpg"
+              <img class="lazy" src="images/portfolio/intro-bg-sm/intro-bg-26-lakeland.jpg"
                 alt="Client: Lakeland Pharmacy" />
               <a href="#modal-Lakeland-Pharmacy" class="overlay">
                 <div class="folio-item-table">
@@ -754,31 +765,36 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/portfolio/modals/lakelandPharmacy/1.png" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/lakelandPharmacy/1.png"
+                      alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/lakelandPharmacy/2.png"
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/lakelandPharmacy/2.png"
                       alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/lakelandPharmacy/3.png" alt="Third slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/lakelandPharmacy/3.png"
+                      alt="Third slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/lakelandPharmacy/4.png" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/lakelandPharmacy/4.png"
+                      alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/lakelandPharmacy/5.png"
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/lakelandPharmacy/5.png"
                       alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/lakelandPharmacy/6.png" alt="Third slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/lakelandPharmacy/6.png"
+                      alt="Third slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/lakelandPharmacy/7.png"
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/lakelandPharmacy/7.png"
                       alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/lakelandPharmacy/8.png" alt="Third slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/lakelandPharmacy/8.png"
+                      alt="Third slide" />
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -823,7 +839,7 @@
           <!-- Zaika -->
           <div class="bgrid folio-item web brand mark">
             <div class="item-wrap">
-              <img loading="lazy" src="images/portfolio/intro-bg-sm/intro-bg-23.jpg"
+              <img class="lazy" src="images/portfolio/intro-bg-sm/intro-bg-23.jpg"
                 alt="Client: Zaika, Indian Kitchen" />
               <a href="#modal-Zaika" class="overlay">
                 <div class="folio-item-table">
@@ -848,22 +864,22 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/portfolio/modals/zaika/1.png" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/zaika/1.png" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/zaika/2.png" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/zaika/2.png" alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/zaika/3.png" alt="Third slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/zaika/3.png" alt="Third slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/zaika/4.png" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/zaika/4.png" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/zaika/5.png" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/zaika/5.png" alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/zaika/6.png" alt="Third slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/zaika/6.png" alt="Third slide" />
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -908,7 +924,7 @@
           <!-- Riteaway Pharmacy -->
           <div class="bgrid folio-item web mark">
             <div class="item-wrap">
-              <img loading="lazy" src="images/portfolio/intro-bg-sm/intro-bg-27-right-away.jpg"
+              <img class="lazy" src="images/portfolio/intro-bg-sm/intro-bg-27-right-away.jpg"
                 alt="Client: Riteaway Pharmacy" />
               <a href="#modal-Rite-Away" class="overlay">
                 <div class="folio-item-table">
@@ -933,22 +949,22 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/portfolio/modals/riteAway/1.png" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/riteAway/1.png" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/riteAway/2.png" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/riteAway/2.png" alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/riteAway/3.png" alt="Third slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/riteAway/3.png" alt="Third slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/riteAway/4.png" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/riteAway/4.png" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/riteAway/5.png" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/riteAway/5.png" alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/riteAway/6.png" alt="Third slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/riteAway/6.png" alt="Third slide" />
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -993,7 +1009,7 @@
           <!-- clicky cards  -->
           <div class="bgrid folio-item web">
             <div class="item-wrap">
-              <img loading="lazy" src="images/portfolio/intro-bg-sm/intro-bg-6.jpg" alt="Project: Clicky Cards" />
+              <img class="lazy" src="images/portfolio/intro-bg-sm/intro-bg-6.jpg" alt="Project: Clicky Cards" />
               <a href="#modal-Clicky-Cards" class="overlay">
                 <div class="folio-item-table">
                   <div class="folio-item-cell">
@@ -1015,16 +1031,17 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/portfolio/modals/clickyCards/1.png" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/clickyCards/1.png" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/clickyCards/2.png" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/clickyCards/2.png"
+                      alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/clickyCards/3.png" alt="Third slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/clickyCards/3.png" alt="Third slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/clickyCards/4.png" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/clickyCards/4.png" alt="First slide" />
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -1062,7 +1079,7 @@
           <!-- mt playmore -->
           <div class="bgrid folio-item web mark">
             <div class="item-wrap">
-              <img loading="lazy" src="images/portfolio/intro-bg-sm/intro-bg-18.jpg" alt="Client: Mt Playmore" />
+              <img class="lazy" src="images/portfolio/intro-bg-sm/intro-bg-18.jpg" alt="Client: Mt Playmore" />
               <a href="#modal-Mt-Playmore" class="overlay">
                 <div class="folio-item-table">
                   <div class="folio-item-cell">
@@ -1085,19 +1102,19 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/portfolio/modals/mtplaymore/1.png" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/mtplaymore/1.png" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/mtplaymore/2.png" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/mtplaymore/2.png" alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/mtplaymore/3.png" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/mtplaymore/3.png" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/mtplaymore/4.png" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/mtplaymore/4.png" alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/mtplaymore/5.png" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/mtplaymore/5.png" alt="First slide" />
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -1144,7 +1161,7 @@
           <!-- are you psychic -->
           <div class="bgrid folio-item web">
             <div class="item-wrap">
-              <img loading="lazy" src="images/portfolio/intro-bg-sm/intro-bg-11.jpg" alt="Project: Are You Psychic?" />
+              <img class="lazy" src="images/portfolio/intro-bg-sm/intro-bg-11.jpg" alt="Project: Are You Psychic?" />
               <a href="#modal-11" class="overlay">
                 <div class="folio-item-table">
                   <div class="folio-item-cell">
@@ -1167,19 +1184,24 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/portfolio/modals/alphabateGuess/1.png" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/alphabateGuess/1.png"
+                      alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/alphabateGuess/2.png" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/alphabateGuess/2.png"
+                      alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/alphabateGuess/3.png" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/alphabateGuess/3.png"
+                      alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/alphabateGuess/4.png" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/alphabateGuess/4.png"
+                      alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/alphabateGuess/5.png" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/alphabateGuess/5.png"
+                      alt="First slide" />
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -1216,7 +1238,7 @@
           <!-- Password Generator -->
           <div class="bgrid folio-item web">
             <div class="item-wrap">
-              <img loading="lazy" src="images/portfolio/intro-bg-sm/intro-bg-8.jpg" alt="Project: Password Generator" />
+              <img class="lazy" src="images/portfolio/intro-bg-sm/intro-bg-8.jpg" alt="Project: Password Generator" />
               <a href="#modal-Password-Generator" class="overlay">
                 <div class="folio-item-table">
                   <div class="folio-item-cell">
@@ -1240,22 +1262,24 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/portfolio/modals/passwordGen/1.png" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/passwordGen/1.png" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/passwordGen/2.png" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/passwordGen/2.png"
+                      alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/passwordGen/3.png" alt="Third slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/passwordGen/3.png" alt="Third slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/passwordGen/4.png" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/passwordGen/4.png" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/passwordGen/5.png" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/passwordGen/5.png"
+                      alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/passwordGen/6.png" alt="Third slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/passwordGen/6.png" alt="Third slide" />
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -1296,7 +1320,7 @@
           <!-- Elite Trading Services -->
           <div class="bgrid folio-item web brand mark">
             <div class="item-wrap">
-              <img loading="lazy" src="images/portfolio/intro-bg-sm/intro-bg-28-elite.jpg"
+              <img class="lazy" src="images/portfolio/intro-bg-sm/intro-bg-28-elite.jpg"
                 alt="Client: Elite Trading Services" />
               <a href="#modal-Elite-Trading-Services" class="overlay">
                 <div class="folio-item-table">
@@ -1321,22 +1345,28 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/portfolio/modals/eliteTrading/11.jpg" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/eliteTrading/11.jpg"
+                      alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/eliteTrading/2.png" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/eliteTrading/2.png"
+                      alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/eliteTrading/3.png" alt="Third slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/eliteTrading/3.png"
+                      alt="Third slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/eliteTrading/4.png" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/eliteTrading/4.png"
+                      alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/eliteTrading/5.png" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/eliteTrading/5.png"
+                      alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/eliteTrading/16.jpg" alt="Third slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/eliteTrading/16.jpg"
+                      alt="Third slide" />
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -1380,7 +1410,7 @@
           <!-- sell sum donuts  -->
           <div class="bgrid folio-item web">
             <div class="item-wrap">
-              <img loading="lazy" src="images/portfolio/intro-bg-sm/intro-bg-4.jpg" alt="Project: Sell Sum Donuts" />
+              <img class="lazy" src="images/portfolio/intro-bg-sm/intro-bg-4.jpg" alt="Project: Sell Sum Donuts" />
               <a href="#modal-04" class="overlay">
                 <div class="folio-item-table">
                   <div class="folio-item-cell">
@@ -1404,22 +1434,28 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/portfolio/modals/sellSumDonuts/1.png" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/sellSumDonuts/1.png"
+                      alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/sellSumDonuts/2.png" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/sellSumDonuts/2.png"
+                      alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/sellSumDonuts/3.png" alt="Third slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/sellSumDonuts/3.png"
+                      alt="Third slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/sellSumDonuts/4.png" alt="Third slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/sellSumDonuts/4.png"
+                      alt="Third slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/sellSumDonuts/5.png" alt="Third slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/sellSumDonuts/5.png"
+                      alt="Third slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/sellSumDonuts/6.png" alt="Third slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/sellSumDonuts/6.png"
+                      alt="Third slide" />
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -1458,7 +1494,7 @@
           <!-- jalpa dance -->
           <div class="bgrid folio-item web brand">
             <div class="item-wrap">
-              <img loading="lazy" src="images/portfolio/intro-bg-sm/intro-bg-2.jpg" alt="Client: Jalpa Dance Academy" />
+              <img class="lazy" src="images/portfolio/intro-bg-sm/intro-bg-2.jpg" alt="Client: Jalpa Dance Academy" />
               <a href="#modal-02" class="overlay">
                 <div class="folio-item-table">
                   <div class="folio-item-cell">
@@ -1482,22 +1518,22 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/portfolio/modals/jalpaDance/1.png" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/jalpaDance/1.png" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/jalpaDance/2.png" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/jalpaDance/2.png" alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/jalpaDance/3.png" alt="Third slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/jalpaDance/3.png" alt="Third slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/jalpaDance/4.png" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/jalpaDance/4.png" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/jalpaDance/5.png" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/jalpaDance/5.png" alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/jalpaDance/6.png" alt="Third slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/jalpaDance/6.png" alt="Third slide" />
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -1545,7 +1581,7 @@
           <!-- Weather -->
           <div class="bgrid folio-item web">
             <div class="item-wrap">
-              <img loading="lazy" src="images/portfolio/intro-bg-sm/intro-bg-32-weather.jpg" alt="Project: Weather" />
+              <img class="lazy" src="images/portfolio/intro-bg-sm/intro-bg-32-weather.jpg" alt="Project: Weather" />
               <a href="#modal-Weather" class="overlay">
                 <div class="folio-item-table">
                   <div class="folio-item-cell">
@@ -1566,13 +1602,13 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/portfolio/modals/weather/1.png" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/weather/1.png" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/weather/2.png" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/weather/2.png" alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/weather/3.png" alt="Third slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/weather/3.png" alt="Third slide" />
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -1613,8 +1649,7 @@
           <!-- oasis -->
           <div class="bgrid folio-item brand mark">
             <div class="item-wrap">
-              <img loading="lazy" src="images/portfolio/intro-bg-sm/intro-bg-16.jpg"
-                alt="Client: Oasis Family Dental" />
+              <img class="lazy" src="images/portfolio/intro-bg-sm/intro-bg-16.jpg" alt="Client: Oasis Family Dental" />
               <a href="#modal-13" class="overlay">
                 <div class="folio-item-table">
                   <div class="folio-item-cell">
@@ -1637,19 +1672,19 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/portfolio/modals/oasis/2.jpg" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/oasis/2.jpg" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/oasis/1.jpg" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/oasis/1.jpg" alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/oasis/3.jpg" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/oasis/3.jpg" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/oasis/4.jpg" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/oasis/4.jpg" alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/oasis/5.jpg" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/oasis/5.jpg" alt="First slide" />
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -1691,8 +1726,7 @@
           <!-- rock paper scissor -->
           <div class="bgrid folio-item web">
             <div class="item-wrap">
-              <img loading="lazy" src="images/portfolio/intro-bg-sm/intro-bg-7.jpg"
-                alt="Project: Rock Paper Scissors" />
+              <img class="lazy" src="images/portfolio/intro-bg-sm/intro-bg-7.jpg" alt="Project: Rock Paper Scissors" />
               <a href="#modal-07" class="overlay">
                 <div class="folio-item-table">
                   <div class="folio-item-cell">
@@ -1714,19 +1748,19 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/portfolio/modals/rockPaperScissors/1.png"
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/rockPaperScissors/1.png"
                       alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/rockPaperScissors/2.png"
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/rockPaperScissors/2.png"
                       alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/rockPaperScissors/3.png"
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/rockPaperScissors/3.png"
                       alt="Third slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/rockPaperScissors/4.png"
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/rockPaperScissors/4.png"
                       alt="First slide" />
                   </div>
                 </div>
@@ -1766,8 +1800,7 @@
           <!-- superior -->
           <div class="bgrid folio-item web brand mark">
             <div class="item-wrap">
-              <img loading="lazy" src="images/portfolio/intro-bg-sm/intro-bg-13.jpg"
-                alt="Client: Superior HealthPlan" />
+              <img class="lazy" src="images/portfolio/intro-bg-sm/intro-bg-13.jpg" alt="Client: Superior HealthPlan" />
               <a href="#modal-10" class="overlay">
                 <div class="folio-item-table">
                   <div class="folio-item-cell">
@@ -1786,25 +1819,25 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/portfolio/modals/superior/1.jpg" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/superior/1.jpg" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/superior/2.jpg" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/superior/2.jpg" alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/superior/4.jpg" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/superior/4.jpg" alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/superior/5.jpg" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/superior/5.jpg" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/superior/6.jpg" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/superior/6.jpg" alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/superior/7.jpg" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/superior/7.jpg" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/superior/8.jpg" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/superior/8.jpg" alt="Second slide" />
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -1846,7 +1879,7 @@
           <!-- apollo tiles -->
           <div class="bgrid folio-item web brand mark">
             <div class="item-wrap">
-              <img loading="lazy" src="images/portfolio/intro-bg-sm/intro-bg-12.jpg" alt="Client: Apollo Tiles" />
+              <img class="lazy" src="images/portfolio/intro-bg-sm/intro-bg-12.jpg" alt="Client: Apollo Tiles" />
               <a href="#modal-12" class="overlay">
                 <div class="folio-item-table">
                   <div class="folio-item-cell">
@@ -1869,19 +1902,21 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/portfolio/modals/apolloTiles/1.png" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/apolloTiles/1.png" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/apolloTiles/2.png" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/apolloTiles/2.png"
+                      alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/apolloTiles/3.png" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/apolloTiles/3.png" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/apolloTiles/4.png" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/apolloTiles/4.png"
+                      alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/apolloTiles/5.png" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/apolloTiles/5.png" alt="First slide" />
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -1926,7 +1961,7 @@
           <!-- pipkin pharmacy -->
           <div class="bgrid folio-item web brand mark">
             <div class="item-wrap">
-              <img loading="lazy" src="images/portfolio/intro-bg-sm/intro-bg-21.jpg" alt="Client: Pipkin Pharmacy" />
+              <img class="lazy" src="images/portfolio/intro-bg-sm/intro-bg-21.jpg" alt="Client: Pipkin Pharmacy" />
               <a href="#modal-18" class="overlay">
                 <div class="folio-item-table">
                   <div class="folio-item-cell">
@@ -1951,25 +1986,25 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/portfolio/modals/pipkin/1.png" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/pipkin/1.png" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/pipkin/2.png" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/pipkin/2.png" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/pipkin/1.jpg" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/pipkin/1.jpg" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/pipkin/2.jpg" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/pipkin/2.jpg" alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/pipkin/3.jpg" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/pipkin/3.jpg" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/pipkin/4.jpg" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/pipkin/4.jpg" alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/pipkin/5.jpg" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/pipkin/5.jpg" alt="First slide" />
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -2013,7 +2048,7 @@
           <!-- ProcSafe -->
           <div class="bgrid folio-item web brand mark">
             <div class="item-wrap">
-              <img loading="lazy" src="images/portfolio/intro-bg-sm/intro-bg-19.jpg" alt="Client: ProcSafe" />
+              <img class="lazy" src="images/portfolio/intro-bg-sm/intro-bg-19.jpg" alt="Client: ProcSafe" />
               <a href="#modal-ProcSafe-Modal" class="overlay">
                 <div class="folio-item-table">
                   <div class="folio-item-cell">
@@ -2039,28 +2074,28 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/portfolio/modals/procSafe/1.png" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/procSafe/1.png" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/procSafe/2.png" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/procSafe/2.png" alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/procSafe/3.png" alt="Third slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/procSafe/3.png" alt="Third slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/procSafe/4.png" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/procSafe/4.png" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/procSafe/5.png" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/procSafe/5.png" alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/procSafe/6.png" alt="Third slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/procSafe/6.png" alt="Third slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/procSafe/7.png" alt="Third slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/procSafe/7.png" alt="Third slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/procSafe/8.png" alt="Third slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/procSafe/8.png" alt="Third slide" />
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -2102,7 +2137,7 @@
           <!-- golfsmith -->
           <div class="bgrid folio-item web mark">
             <div class="item-wrap">
-              <img loading="lazy" src="images/portfolio/intro-bg-sm/intro-bg-17.jpg" alt="Client: Golfsmith" />
+              <img class="lazy" src="images/portfolio/intro-bg-sm/intro-bg-17.jpg" alt="Client: Golfsmith" />
               <a href="#modal-14" class="overlay">
                 <div class="folio-item-table">
                   <div class="folio-item-cell">
@@ -2125,19 +2160,19 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/portfolio/modals/golfsmith/5.jpg" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/golfsmith/5.jpg" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/golfsmith/4.jpg" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/golfsmith/4.jpg" alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/golfsmith/1.jpg" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/golfsmith/1.jpg" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/golfsmith/2.jpg" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/golfsmith/2.jpg" alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/golfsmith/3.jpg" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/golfsmith/3.jpg" alt="First slide" />
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -2179,7 +2214,7 @@
           <!-- save my road -->
           <div class="bgrid folio-item web mark">
             <div class="item-wrap">
-              <img loading="lazy" src="images/portfolio/intro-bg-sm/intro-bg-14.jpg" alt="Client: Save My Road" />
+              <img class="lazy" src="images/portfolio/intro-bg-sm/intro-bg-14.jpg" alt="Client: Save My Road" />
               <a href="#modal-15" class="overlay">
                 <div class="folio-item-table">
                   <div class="folio-item-cell">
@@ -2202,19 +2237,19 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/portfolio/modals/savemyroad/5.jpg" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/savemyroad/5.jpg" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/savemyroad/4.jpg" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/savemyroad/4.jpg" alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/savemyroad/1.jpg" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/savemyroad/1.jpg" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/savemyroad/2.jpg" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/savemyroad/2.jpg" alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/savemyroad/3.jpg" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/savemyroad/3.jpg" alt="First slide" />
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -2256,7 +2291,7 @@
           <!-- denim -->
           <div class="bgrid folio-item brand mark">
             <div class="item-wrap">
-              <img loading="lazy" src="images/portfolio/intro-bg-sm/intro-bg-15.jpg" alt="Client: Cande Nast" />
+              <img class="lazy" src="images/portfolio/intro-bg-sm/intro-bg-15.jpg" alt="Client: Cande Nast" />
               <a href="#modal-16" class="overlay">
                 <div class="folio-item-table">
                   <div class="folio-item-cell">
@@ -2281,25 +2316,25 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/portfolio/modals/denim/7.jpg" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/denim/7.jpg" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/denim/1.jpg" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/denim/1.jpg" alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/denim/2.jpg" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/denim/2.jpg" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/denim/3.jpg" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/denim/3.jpg" alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/denim/4.jpg" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/denim/4.jpg" alt="First slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/denim/5.jpg" alt="Second slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/denim/5.jpg" alt="Second slide" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="images/portfolio/modals/denim/6.jpg" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/denim/6.jpg" alt="First slide" />
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -2348,7 +2383,7 @@
 
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/portfolio/modals/x/1.jpg" alt="First slide" />
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/x/1.jpg" alt="First slide" />
                   </div>
                 </div>
 
@@ -3013,8 +3048,8 @@
     <div class="row">
       <div class="col-seven tab-full">
         <div id="logoDesaign" style="padding-bottom: 20px">
-          <img loading="lazy" src="https://desaign.app/clients/cli/images/logo/desaign-animate-once.svg"
-            alt="desaign llc" width="200" />
+          <img class="lazy" src="https://desaign.app/clients/cli/images/logo/desaign-animate-once.svg" alt="desaign llc"
+            width="200" />
         </div>
         <div class="copyright">
           <span>Copyright &#160; &copy; &#160; 2011-
