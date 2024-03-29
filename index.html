@@ -110,11 +110,6 @@
   <script src="js/modernizr.js"></script>
   <script src="js/pace.min.js"></script>
   <script src="js/modernizr.custom.js"></script>
-  <script>
-    $(function () {
-      $('.lazy').lazy();
-    });
-  </script>
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127147097-1"></script>
@@ -3107,6 +3102,11 @@
       $("#testimonial-slider").on("slide.bs.carousel", function () {
         $(".testimonial").hide();
       });
+    });
+  </script>
+  <script>
+    $(function () {
+      $('.lazy').lazyLoad();
     });
   </script>
 </body>
