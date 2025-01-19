@@ -22,4 +22,7 @@ function loadFragment(containerId, fragmentPath) {
   loadFragment('servicesSection', './fragments/servicesSection.html');
   loadFragment('contactSection', './fragments/contactSection.html');
   loadFragment('footer', './fragments/footer.html');
+  // Portfolio
+  loadFragment('folio-fashionfloors', './fragments/portfolio/folio-fashionfloors.html');
+
   
