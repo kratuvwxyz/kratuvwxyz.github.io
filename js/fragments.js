@@ -11,6 +11,15 @@ function loadFragment(containerId, fragmentPath) {
       .catch(error => console.error(error));
   }
   
-  // Load header and footer fragments
+  // Load fragments
   loadFragment('header', './fragments/header.html');
+  loadFragment('introSection', './fragments/introSection.html');
+  loadFragment('aboutSection', './fragments/aboutSection.html');
+  loadFragment('devide1Section', './fragments/devide1Section.html');
+  loadFragment('devide2Section', './fragments/devide2Section.html');
+  loadFragment('devide3Section', './fragments/devide3Section.html');
+  loadFragment('resumeSection', './fragments/resumeSection.html');
+  loadFragment('servicesSection', './fragments/servicesSection.html');
+  loadFragment('contactSection', './fragments/contactSection.html');
+  loadFragment('footer', './fragments/footer.html');
   
