@@ -1,0 +1,56 @@
+<div id="modal-x" class="popup-modal slider mfp-hide">
+    <div class="media" style="display: block">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100 lazy" src="images/portfolio/modals/x/1.jpg" alt="First slide" />
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="description-box">
+        <h4>Under Construction</h4>
+        <p>We are cooking something awesome stuff. Hold your breath and wait for the royal launch.</p>
+
+        <div class="categories"><span style="color: black">New Launch in </span> <span id="launchDate" type="text"
+                value="August 30, 2024 11:11:11:11">Add Days!</span></div>
+
+        <script>
+            let di = new Date();
+            let dd = Number(di);
+
+            let v = $("#launchDate").attr("value");
+            let vv = new Date(v);
+            let vvv = Number(vv);
+
+            let dif = vvv - dd;
+            let xyz = dif / 3600000;
+            let xyza = Math.floor(xyz / 24);
+
+            $("#launchDate").text(`${xyza} Days`).addClass("text-danger fw-bold");
+        </script>
+    </div>
+
+    <div class="link-box">
+        <a href="https://desaign.app" target="_blank">DESAIGN.STUDIO</a>
+        <a href="https://www.facebook.com/desaignstudio" target="_blank">Facebook</a>
+    </div>
+    <a href="#" class="popup-modal-dismiss btn btn-light btn-lg btn-block"
+        style="text-transform: uppercase; letter-spacing: 3px"><span
+            style="color: white; font-weight: bolder; font-size: 15px"> </span> Back to Portfolio</a>
+</div>
