@@ -22,5 +22,4 @@ function loadFragment(containerId, fragmentPath) {
   loadFragment('servicesSection', './fragments/servicesSection.html');
   loadFragment('contactSection', './fragments/contactSection.html');
   loadFragment('footer', './fragments/footer.html');
-  loadFragment('portfolioSection', './fragments/portfolioSection.html');
   
