@@ -187,7 +187,6 @@ Promise.all(fragmentPromises).then(() => {
     modalImages: [
       "images/portfolio/modals/superior/1.jpg",
       "images/portfolio/modals/superior/2.jpg",
-      "images/portfolio/modals/superior/3.jpg",
       "images/portfolio/modals/superior/4.jpg",
       "images/portfolio/modals/superior/5.jpg",
       "images/portfolio/modals/superior/6.jpg",
