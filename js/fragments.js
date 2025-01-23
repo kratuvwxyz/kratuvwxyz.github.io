@@ -1,29 +1,30 @@
 // Function to load HTML fragments
 function loadFragment(containerId, fragmentPath) {
-  fetch(fragmentPath)
-    .then(response => {
+  return fetch(fragmentPath)
+    .then((response) => {
       if (!response.ok) throw new Error(`Failed to load ${fragmentPath}`);
       return response.text();
     })
-    .then(data => {
+    .then((data) => {
       document.getElementById(containerId).innerHTML = data;
     })
-    .catch(error => console.error(error));
+    .catch((error) => console.error(error));
 }
 
-// Load fragments
-loadFragment('header', './fragments/header.html');
-loadFragment('introSection', './fragments/introSection.html');
-loadFragment('aboutSection', './fragments/aboutSection.html');
-loadFragment('portfolioSection', './fragments/portfolioSection.html');
-loadFragment('devide1Section', './fragments/devide1Section.html');
-loadFragment('devide2Section', './fragments/devide2Section.html');
-loadFragment('devide3Section', './fragments/devide3Section.html');
-loadFragment('resumeSection', './fragments/resumeSection.html');
-loadFragment('servicesSection', './fragments/servicesSection.html');
-loadFragment('contactSection', './fragments/contactSection.html');
-loadFragment('footer', './fragments/footer.html');
-
+// Load all fragments and wait for them to finish
+const fragmentPromises = [
+  loadFragment("header", "./fragments/header.html"),
+  loadFragment("introSection", "./fragments/introSection.html"),
+  loadFragment("aboutSection", "./fragments/aboutSection.html"),
+  loadFragment("portfolioSection", "./fragments/portfolioSection.html"),
+  loadFragment("devide1Section", "./fragments/devide1Section.html"),
+  loadFragment("devide2Section", "./fragments/devide2Section.html"),
+  loadFragment("devide3Section", "./fragments/devide3Section.html"),
+  loadFragment("resumeSection", "./fragments/resumeSection.html"),
+  loadFragment("servicesSection", "./fragments/servicesSection.html"),
+  loadFragment("contactSection", "./fragments/contactSection.html"),
+  loadFragment("footer", "./fragments/footer.html"),
+];
 
 // Portfolio content
 function createPortfolioItem(options) {
@@ -136,188 +137,192 @@ Save My Road
 Denim Summit
 */
 
-// Fashion Floors
-createPortfolioItem({
-  id: "Fashion-Floors",
-  title: "Fashion Floors",
-  imageSrc: "images/portfolio/intro-bg-sm/intro-bg-24-fashion-floors.jpg",
-  modalImages: [
-    "images/portfolio/modals/fashionFloors/1.png",
-    "images/portfolio/modals/fashionFloors/2.png",
-    "images/portfolio/modals/fashionFloors/3.png",
-    "images/portfolio/modals/fashionFloors/4.png",
-    "images/portfolio/modals/fashionFloors/5.png",
-    "images/portfolio/modals/fashionFloors/6.png",
-  ],
-  description:
-    "Crafted an E-commerce WordPress platform for Fashion Floors and Carpets By Conrad, providing a seamless shopping experience. Tasked with overseeing continuous SEO optimization and managing marketing initiatives to enhance brand visibility and drive sales growth.",
-  tools:
-    "WordPress, PHP, HTML5/CSS3, Bootstrap, JavaScript/JQuery, Google Fonts, SVG Assets, Adobe Creative Suite",
-  websiteLink: "https://carpetsbyconrad.com/",
-});
+// Wait for all fragments to load before running additional code
+Promise.all(fragmentPromises).then(() => {
+  console.log("All fragments loaded.");
+  // Fashion Floors
+  createPortfolioItem({
+    id: "Fashion-Floors",
+    title: "Fashion Floors",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-24-fashion-floors.jpg",
+    modalImages: [
+      "images/portfolio/modals/fashionFloors/1.png",
+      "images/portfolio/modals/fashionFloors/2.png",
+      "images/portfolio/modals/fashionFloors/3.png",
+      "images/portfolio/modals/fashionFloors/4.png",
+      "images/portfolio/modals/fashionFloors/5.png",
+      "images/portfolio/modals/fashionFloors/6.png",
+    ],
+    description:
+      "Crafted an E-commerce WordPress platform for Fashion Floors and Carpets By Conrad, providing a seamless shopping experience. Tasked with overseeing continuous SEO optimization and managing marketing initiatives to enhance brand visibility and drive sales growth.",
+    tools:
+      "WordPress, PHP, HTML5/CSS3, Bootstrap, JavaScript/JQuery, Google Fonts, SVG Assets, Adobe Creative Suite",
+    websiteLink: "https://carpetsbyconrad.com/",
+  });
 
-// New Diamonds Inc.
-createPortfolioItem({
-  id: "New-Diamonds-Inc",
-  title: "New Diamonds, Inc.",
-  imageSrc: "images/portfolio/intro-bg-sm/intro-bg-22.jpg",
-  modalImages: [
-    "images/portfolio/modals/aakashDiamondsInc/3.png",
-    "images/portfolio/modals/aakashDiamondsInc/2.png",
-    "images/portfolio/modals/aakashDiamondsInc/1.png",
-    "images/portfolio/modals/aakashDiamondsInc/4.png",
-    "images/portfolio/modals/aakashDiamondsInc/5.png",
-    "images/portfolio/modals/aakashDiamondsInc/6.png",
-  ],
-  description: `The development of a full-stack e-commerce website for a diamond shop, incorporating secure authentication, real-time database functionality, and integration with Google Sheets, promises to deliver a robust and user-friendly platform for both customers and administrators. By leveraging cutting-edge technologies and best practices in web development, this project aims to provide a seamless and efficient online shopping experience for diamond enthusiasts worldwide.`,
-  tools: `Full-stack e-commerce website includes Google Firebase authentication, Firebase real-time database, PHP, JavaScript, Connect Google Sheets with Database, and Sass.`,
-  websiteText: "Request a Demo",
-  websiteLink: "https://kratuvwxyz.github.io/#contact",
-});
+  // New Diamonds Inc.
+  createPortfolioItem({
+    id: "New-Diamonds-Inc",
+    title: "New Diamonds, Inc.",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-22.jpg",
+    modalImages: [
+      "images/portfolio/modals/aakashDiamondsInc/3.png",
+      "images/portfolio/modals/aakashDiamondsInc/2.png",
+      "images/portfolio/modals/aakashDiamondsInc/1.png",
+      "images/portfolio/modals/aakashDiamondsInc/4.png",
+      "images/portfolio/modals/aakashDiamondsInc/5.png",
+      "images/portfolio/modals/aakashDiamondsInc/6.png",
+    ],
+    description: `The development of a full-stack e-commerce website for a diamond shop, incorporating secure authentication, real-time database functionality, and integration with Google Sheets, promises to deliver a robust and user-friendly platform for both customers and administrators. By leveraging cutting-edge technologies and best practices in web development, this project aims to provide a seamless and efficient online shopping experience for diamond enthusiasts worldwide.`,
+    tools: `Full-stack e-commerce website includes Google Firebase authentication, Firebase real-time database, PHP, JavaScript, Connect Google Sheets with Database, and Sass.`,
+    websiteText: "Request a Demo",
+    websiteLink: "https://kratuvwxyz.github.io/#contact",
+  });
 
-// Superior
-createPortfolioItem({
-  id: "superior",
-  title: "Superior HealthPlan",
-  imageSrc: "images/portfolio/intro-bg-sm/intro-bg-13.jpg",
-  modalImages: [
-    "images/portfolio/modals/superior/1.png",
-    "images/portfolio/modals/superior/2.png",
-    "images/portfolio/modals/superior/3.png",
-    "images/portfolio/modals/superior/4.png",
-    "images/portfolio/modals/superior/5.png",
-    "images/portfolio/modals/superior/6.png",
-    "images/portfolio/modals/superior/7.png",
-    "images/portfolio/modals/superior/8.png",
-  ],
-  description: `Collaborated with the marketing team to craft landing pages such as Discover Superior,
+  // Superior
+  createPortfolioItem({
+    id: "superior",
+    title: "Superior HealthPlan",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-13.jpg",
+    modalImages: [
+      "images/portfolio/modals/superior/1.png",
+      "images/portfolio/modals/superior/2.png",
+      "images/portfolio/modals/superior/3.png",
+      "images/portfolio/modals/superior/4.png",
+      "images/portfolio/modals/superior/5.png",
+      "images/portfolio/modals/superior/6.png",
+      "images/portfolio/modals/superior/7.png",
+      "images/portfolio/modals/superior/8.png",
+    ],
+    description: `Collaborated with the marketing team to craft landing pages such as Discover Superior,
       Members First, and About Us, utilizing Adobe Experience Manager (AEM). Additionally,
       contributed to the creation of various branding materials for marketing purposes.`,
-  tools: `Adobe Creative Suite - This
+    tools: `Adobe Creative Suite - This
       includes Photoshop for image editing, Illustrator for vector graphics, and InDesign for
       layout design. HTML/CSS/JavaScript - For coding the landing page and email templates. Adobe
       Experience Manager (AEM) - Setup a platform for adding interactivity or dynamic elements to
       landing pages.`,
-  websiteText: "Discover Superior Webpage",
-  websiteLink: `https://www.superiorhealthplan.com/discover-superior.html`,
-  websiteText2: "Members First Webpage",
-  websiteLink2: `https://www.superiorhealthplan.com/members-first.html`,
-});
+    websiteText: "Discover Superior Webpage",
+    websiteLink: `https://www.superiorhealthplan.com/discover-superior.html`,
+    websiteText2: "Members First Webpage",
+    websiteLink2: `https://www.superiorhealthplan.com/members-first.html`,
+  });
 
-// Title
-createPortfolioItem({
-  id: "idTitle",
-  title: "Title",
-  imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
-  modalImages: [
-    "images/portfolio/modals/name.png",
-  ],
-  description: `ddd`,
-  tools: `ttt`,
-  websiteLink: "www",
-});
+  // Title
+  createPortfolioItem({
+    id: "idTitle",
+    title: "Title",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
+    modalImages: [
+      "images/portfolio/modals/name.png",
+    ],
+    description: `ddd`,
+    tools: `ttt`,
+    websiteLink: "www",
+  });
 
-// Title
-createPortfolioItem({
-  id: "idTitle",
-  title: "Title",
-  imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
-  modalImages: [
-    "images/portfolio/modals/name.png",
-  ],
-  description: `ddd`,
-  tools: `ttt`,
-  websiteLink: "www",
-});
+  // Title
+  createPortfolioItem({
+    id: "idTitle",
+    title: "Title",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
+    modalImages: [
+      "images/portfolio/modals/name.png",
+    ],
+    description: `ddd`,
+    tools: `ttt`,
+    websiteLink: "www",
+  });
 
-// Title
-createPortfolioItem({
-  id: "idTitle",
-  title: "Title",
-  imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
-  modalImages: [
-    "images/portfolio/modals/name.png",
-  ],
-  description: `ddd`,
-  tools: `ttt`,
-  websiteLink: "www",
-});
+  // Title
+  createPortfolioItem({
+    id: "idTitle",
+    title: "Title",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
+    modalImages: [
+      "images/portfolio/modals/name.png",
+    ],
+    description: `ddd`,
+    tools: `ttt`,
+    websiteLink: "www",
+  });
 
-// Title
-createPortfolioItem({
-  id: "idTitle",
-  title: "Title",
-  imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
-  modalImages: [
-    "images/portfolio/modals/name.png",
-  ],
-  description: `ddd`,
-  tools: `ttt`,
-  websiteLink: "www",
-});
+  // Title
+  createPortfolioItem({
+    id: "idTitle",
+    title: "Title",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
+    modalImages: [
+      "images/portfolio/modals/name.png",
+    ],
+    description: `ddd`,
+    tools: `ttt`,
+    websiteLink: "www",
+  });
 
-// Title
-createPortfolioItem({
-  id: "idTitle",
-  title: "Title",
-  imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
-  modalImages: [
-    "images/portfolio/modals/name.png",
-  ],
-  description: `ddd`,
-  tools: `ttt`,
-  websiteLink: "www",
-});
+  // Title
+  createPortfolioItem({
+    id: "idTitle",
+    title: "Title",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
+    modalImages: [
+      "images/portfolio/modals/name.png",
+    ],
+    description: `ddd`,
+    tools: `ttt`,
+    websiteLink: "www",
+  });
 
-// Title
-createPortfolioItem({
-  id: "idTitle",
-  title: "Title",
-  imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
-  modalImages: [
-    "images/portfolio/modals/name.png",
-  ],
-  description: `ddd`,
-  tools: `ttt`,
-  websiteLink: "www",
-});
+  // Title
+  createPortfolioItem({
+    id: "idTitle",
+    title: "Title",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
+    modalImages: [
+      "images/portfolio/modals/name.png",
+    ],
+    description: `ddd`,
+    tools: `ttt`,
+    websiteLink: "www",
+  });
 
-// Title
-createPortfolioItem({
-  id: "idTitle",
-  title: "Title",
-  imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
-  modalImages: [
-    "images/portfolio/modals/name.png",
-  ],
-  description: `ddd`,
-  tools: `ttt`,
-  websiteLink: "www",
-});
+  // Title
+  createPortfolioItem({
+    id: "idTitle",
+    title: "Title",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
+    modalImages: [
+      "images/portfolio/modals/name.png",
+    ],
+    description: `ddd`,
+    tools: `ttt`,
+    websiteLink: "www",
+  });
 
-// Title
-createPortfolioItem({
-  id: "idTitle",
-  title: "Title",
-  imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
-  modalImages: [
-    "images/portfolio/modals/name.png",
-  ],
-  description: `ddd`,
-  tools: `ttt`,
-  websiteLink: "www",
-});
+  // Title
+  createPortfolioItem({
+    id: "idTitle",
+    title: "Title",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
+    modalImages: [
+      "images/portfolio/modals/name.png",
+    ],
+    description: `ddd`,
+    tools: `ttt`,
+    websiteLink: "www",
+  });
 
-// Title
-createPortfolioItem({
-  id: "idTitle",
-  title: "Title",
-  imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
-  modalImages: [
-    "images/portfolio/modals/name.png",
-  ],
-  description: `ddd`,
-  tools: `ttt`,
-  websiteLink: "www",
-});
+  // Title
+  createPortfolioItem({
+    id: "idTitle",
+    title: "Title",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
+    modalImages: [
+      "images/portfolio/modals/name.png",
+    ],
+    description: `ddd`,
+    tools: `ttt`,
+    websiteLink: "www",
+  });
 
+});
