@@ -1134,7 +1134,7 @@ input::-moz-focus-inner {
 
 .parallax1 {
   /* The image used */
-  background-image: url("images/white-waves.png");
+  /* background-image: url("images/white-waves.png"); */
   background-color: #02779e;
 
   /* Set a specific height */
