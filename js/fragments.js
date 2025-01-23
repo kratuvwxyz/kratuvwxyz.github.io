@@ -185,14 +185,14 @@ Promise.all(fragmentPromises).then(() => {
     title: "Superior HealthPlan",
     imageSrc: "images/portfolio/intro-bg-sm/intro-bg-13.jpg",
     modalImages: [
-      "images/portfolio/modals/superior/1.png",
-      "images/portfolio/modals/superior/2.png",
-      "images/portfolio/modals/superior/3.png",
-      "images/portfolio/modals/superior/4.png",
-      "images/portfolio/modals/superior/5.png",
-      "images/portfolio/modals/superior/6.png",
-      "images/portfolio/modals/superior/7.png",
-      "images/portfolio/modals/superior/8.png",
+      "images/portfolio/modals/superior/1.jpg",
+      "images/portfolio/modals/superior/2.jpg",
+      "images/portfolio/modals/superior/3.jpg",
+      "images/portfolio/modals/superior/4.jpg",
+      "images/portfolio/modals/superior/5.jpg",
+      "images/portfolio/modals/superior/6.jpg",
+      "images/portfolio/modals/superior/7.jpg",
+      "images/portfolio/modals/superior/8.jpg",
     ],
     description: `Collaborated with the marketing team to craft landing pages such as Discover Superior,
       Members First, and About Us, utilizing Adobe Experience Manager (AEM). Additionally,
@@ -208,6 +208,7 @@ Promise.all(fragmentPromises).then(() => {
     websiteLink2: `https://www.superiorhealthplan.com/members-first.html`,
   });
 
+  /*
   // Title
   createPortfolioItem({
     id: "idTitle",
@@ -324,5 +325,5 @@ Promise.all(fragmentPromises).then(() => {
     tools: `ttt`,
     websiteLink: "www",
   });
-
+*/
 });
