@@ -276,6 +276,33 @@ Promise.all(fragmentPromises).then(() => {
   /*---------------------------------------------------- */
   /* Portfolio
     ------------------------------------------------------ */
+  // Zaika Kitchen
+  createPortfolioItem({
+    id: "zaika-kitchen",
+    title: "Zaika Kitchen",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-23.jpg",
+    modalImages: [
+      "images/portfolio/modals/zaika/1.png",
+      "images/portfolio/modals/zaika/2.png",
+      "images/portfolio/modals/zaika/3.png",
+      "images/portfolio/modals/zaika/4.png",
+      "images/portfolio/modals/zaika/5.png",
+      "images/portfolio/modals/zaika/6.png",
+    ],
+    description: `Developed an E-commerce WordPress website enabling users to conveniently order food online
+      for in-store pickup. Implemented custom JavaScript, PHP, and CSS code to enhance
+      functionality and user experience. Integrated merchant analytics for efficient management of
+      product supply and demand.`,
+    tools: `WordPress and PHP - Setup a
+      platform for adding interactivity or dynamic elements to landing pages. HTML5/CSS3/BOOTSTRAP
+      - Used to structure and style the content of the website. JavaScript/JQuery - For employed
+      to add interactivity and dynamic behavior to the website. Google Fonts - To enhance the
+      typography of the website. SVG Assets - Included in the project to enhance visual appeal and
+      provide scalable, resolution-independent images. Adobe Creative Suite - This includes
+      Photoshop for image editing, Illustrator for vector graphics, and InDesign for layout
+      design.`,
+    websiteLink: "https://zaikatx.com/",
+  });
 
   // Fashion Floors
   createPortfolioItem({
@@ -345,18 +372,7 @@ Promise.all(fragmentPromises).then(() => {
   });
 
   /*
-  // Title
-  createPortfolioItem({
-    id: "idTitle",
-    title: "Title",
-    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
-    modalImages: [
-      "images/portfolio/modals/name.png",
-    ],
-    description: `ddd`,
-    tools: `ttt`,
-    websiteLink: "www",
-  });
+
 
   // Title
   createPortfolioItem({
