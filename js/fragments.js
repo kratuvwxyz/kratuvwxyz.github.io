@@ -534,21 +534,35 @@ Promise.all(fragmentPromises).then(() => {
     websiteLink: "https://apollofloors.com/",
   });
 
+  // ProcSafe
+  createPortfolioItem({
+    id: "procsafe",
+    title: "ProcSafe",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-19.jpg",
+    modalImages: [
+      "images/portfolio/modals/procSafe/1.png",
+      "images/portfolio/modals/procSafe/2.png",
+      "images/portfolio/modals/procSafe/3.png",
+      "images/portfolio/modals/procSafe/4.png",
+      "images/portfolio/modals/procSafe/5.png",
+      "images/portfolio/modals/procSafe/6.png",
+      "images/portfolio/modals/procSafe/7.png",
+      "images/portfolio/modals/procSafe/8.png",
+    ],
+    description: `To enhance ProcSafe's marketing and branding efforts, a bespoke digital marketing strategy
+      was crafted. The website showcases the company's key attributes and strengths, incorporating
+      interactive online forms and marketing utilities to foster client engagement.`,
+    tools: `HTML5/CSS3/BOOTSTRAP - Used to
+      structure and style the content of the website. JavaScript/JQuery - For employed to add
+      interactivity and dynamic behavior to the website. Google Fonts - To enhance the typography
+      of the website. SVG Assets - Included in the project to enhance visual appeal and provide
+      scalable, resolution-independent images.`,
+    websiteText: "Request a Demo",
+    websiteLink: "https://kratuvwxyz.github.io/#contact",
+  });
+
   /*
 
-
-  // Titlex
-  createPortfolioItem({
-    id: "idTitle",
-    title: "Titlex",
-    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-888.jpg",
-    modalImages: [
-      "images/portfolio/modals/name.png",
-    ],
-    description: `ddd`,
-    tools: `ttt`,
-    websiteLink: "www",
-  });
 
   // Titlex
   createPortfolioItem({
