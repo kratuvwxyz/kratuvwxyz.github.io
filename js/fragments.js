@@ -404,6 +404,31 @@ Promise.all(fragmentPromises).then(() => {
     websiteLink: "http://mtplaymore.com/",
   });
 
+  // Elite Trading
+  createPortfolioItem({
+    id: "elite-trading-service",
+    title: "Elite Trading Service",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-28-elite.jpg",
+    modalImages: [
+      "images/portfolio/modals/eliteTrading/11.jpg",
+      "images/portfolio/modals/eliteTrading/2.png",
+      "images/portfolio/modals/eliteTrading/3.png",
+      "images/portfolio/modals/eliteTrading/4.png",
+      "images/portfolio/modals/eliteTrading/5.png",
+      "images/portfolio/modals/eliteTrading/16.jpg",
+    ],
+    description: `I create a dynamic one-page promotional website to showcase products and services with flair.
+      I spearhead impactful email marketing campaigns and cultivate brand development strategies
+      to amplify the online presence and captivate the audience.`,
+    tools: `HTML5/CSS3/BOOTSTRAP - Used to
+      structure and style the content of the website. JavaScript/JQuery - For employed to add
+      interactivity and dynamic behavior to the website. Google Fonts - To enhance the typography
+      of the website. SVG Assets - Included in the project to enhance visual appeal and provide
+      scalable, resolution-independent images. Adobe Creative Suite - This includes Photoshop for
+      image editing, Illustrator for vector graphics, and InDesign for layout design.`,
+    websiteLink: "http://eliteTrading.co.in/",
+  });
+
   // New Diamonds Inc.
   createPortfolioItem({
     id: "New-Diamonds-Inc",
@@ -459,23 +484,12 @@ Promise.all(fragmentPromises).then(() => {
 
 
 
-  // Title
-  createPortfolioItem({
-    id: "idTitle",
-    title: "Title",
-    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-888.jpg",
-    modalImages: [
-      "images/portfolio/modals/name.png",
-    ],
-    description: `ddd`,
-    tools: `ttt`,
-    websiteLink: "www",
-  });
 
-  // Title
+
+  // Titlex
   createPortfolioItem({
     id: "idTitle",
-    title: "Title",
+    title: "Titlex",
     imageSrc: "images/portfolio/intro-bg-sm/intro-bg-888.jpg",
     modalImages: [
       "images/portfolio/modals/name.png",
