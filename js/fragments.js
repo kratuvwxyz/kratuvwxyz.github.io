@@ -353,6 +353,28 @@ Promise.all(fragmentPromises).then(() => {
     websiteLink: "https://carpetsbyconrad.com/",
   });
 
+  // Oasis Family Dental
+  createPortfolioItem({
+    id: "oasis-dental",
+    title: "Oasis Family Dental",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-16.jpg",
+    modalImages: [
+      "images/portfolio/modals/oasis/2.jpg",
+      "images/portfolio/modals/oasis/1.jpg",
+      "images/portfolio/modals/oasis/3.jpg",
+      "images/portfolio/modals/oasis/4.jpg",
+      "images/portfolio/modals/oasis/5.jpg",
+    ],
+    description: `To enhance marketing and branding efforts, I've developed branding strategies, created brand
+      materials, marketing collateral, social media campaigns, flyers, email marketing content,
+      and website materials tailored to your needs.`,
+    tools: `SVG Assets - Included in the
+      project to enhance visual appeal and provide scalable, resolution-independent images. Adobe
+      Creative Suite - This includes Photoshop for image editing, Illustrator for vector graphics,
+      and InDesign for layout design. Print production and email marketing tools.`,
+    websiteLink: "https://www.mydentaloasis.com/",
+  });
+
   // New Diamonds Inc.
   createPortfolioItem({
     id: "New-Diamonds-Inc",
@@ -405,11 +427,12 @@ Promise.all(fragmentPromises).then(() => {
 
   
 
+
   // Title
   createPortfolioItem({
     id: "idTitle",
     title: "Title",
-    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-888.jpg",
     modalImages: [
       "images/portfolio/modals/name.png",
     ],
@@ -422,7 +445,7 @@ Promise.all(fragmentPromises).then(() => {
   createPortfolioItem({
     id: "idTitle",
     title: "Title",
-    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-888.jpg",
     modalImages: [
       "images/portfolio/modals/name.png",
     ],
@@ -435,7 +458,7 @@ Promise.all(fragmentPromises).then(() => {
   createPortfolioItem({
     id: "idTitle",
     title: "Title",
-    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-888.jpg",
     modalImages: [
       "images/portfolio/modals/name.png",
     ],
@@ -448,7 +471,7 @@ Promise.all(fragmentPromises).then(() => {
   createPortfolioItem({
     id: "idTitle",
     title: "Title",
-    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-888.jpg",
     modalImages: [
       "images/portfolio/modals/name.png",
     ],
@@ -461,7 +484,7 @@ Promise.all(fragmentPromises).then(() => {
   createPortfolioItem({
     id: "idTitle",
     title: "Title",
-    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-888.jpg",
     modalImages: [
       "images/portfolio/modals/name.png",
     ],
@@ -474,20 +497,7 @@ Promise.all(fragmentPromises).then(() => {
   createPortfolioItem({
     id: "idTitle",
     title: "Title",
-    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
-    modalImages: [
-      "images/portfolio/modals/name.png",
-    ],
-    description: `ddd`,
-    tools: `ttt`,
-    websiteLink: "www",
-  });
-
-  // Title
-  createPortfolioItem({
-    id: "idTitle",
-    title: "Title",
-    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-888.jpg",
     modalImages: [
       "images/portfolio/modals/name.png",
     ],
