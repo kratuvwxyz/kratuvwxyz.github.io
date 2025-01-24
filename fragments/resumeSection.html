@@ -368,29 +368,4 @@
         </div>
     </div>
     <!-- /call to action buttons -->
-
-    <!-- #toggle script -->
-    <script>
-        var toggler = document.getElementsByClassName("caret");
-        var i;
-
-        // Set initial text to "Read More"
-        $(".caret").text("Read More");
-
-        for (i = 0; i < toggler.length; i++) {
-            toggler[i].addEventListener("click", function () {
-                // Toggle the "active1" class
-                this.parentElement.querySelector(".nested1").classList.toggle("active1");
-                this.classList.toggle("caret-down");
-
-                // Toggle text based on whether "active1" class is present
-                if (this.parentElement.querySelector(".nested1").classList.contains("active1")) {
-                    $(this).text("Read Less");
-                } else {
-                    $(this).text("Read More");
-                }
-            });
-        }
-    </script>
-    <!-- /script -->
 </section>
