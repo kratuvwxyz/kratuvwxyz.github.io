@@ -276,6 +276,62 @@ Promise.all(fragmentPromises).then(() => {
   /*---------------------------------------------------- */
   /* Portfolio
     ------------------------------------------------------ */
+  // Zaika Kitchen
+  createPortfolioItem({
+    id: "zaika-kitchen",
+    title: "Zaika Kitchen",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-23.jpg",
+    modalImages: [
+      "images/portfolio/modals/zaika/1.png",
+      "images/portfolio/modals/zaika/2.png",
+      "images/portfolio/modals/zaika/3.png",
+      "images/portfolio/modals/zaika/4.png",
+      "images/portfolio/modals/zaika/5.png",
+      "images/portfolio/modals/zaika/6.png",
+    ],
+    description: `Developed an E-commerce WordPress website enabling users to conveniently order food online
+      for in-store pickup. Implemented custom JavaScript, PHP, and CSS code to enhance
+      functionality and user experience. Integrated merchant analytics for efficient management of
+      product supply and demand.`,
+    tools: `WordPress and PHP - Setup a
+      platform for adding interactivity or dynamic elements to landing pages. HTML5/CSS3/BOOTSTRAP
+      - Used to structure and style the content of the website. JavaScript/JQuery - For employed
+      to add interactivity and dynamic behavior to the website. Google Fonts - To enhance the
+      typography of the website. SVG Assets - Included in the project to enhance visual appeal and
+      provide scalable, resolution-independent images. Adobe Creative Suite - This includes
+      Photoshop for image editing, Illustrator for vector graphics, and InDesign for layout
+      design.`,
+    websiteLink: "https://zaikatx.com/",
+  });
+
+  // Lakeland Pharmacy
+  createPortfolioItem({
+    id: "lakeland-pharmacy",
+    title: "Lakeland Pharmacy",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-26-lakeland.jpg",
+    modalImages: [
+      "images/portfolio/modals/lakelandPharmacy/1.png",
+      "images/portfolio/modals/lakelandPharmacy/2.png",
+      "images/portfolio/modals/lakelandPharmacy/3.png",
+      "images/portfolio/modals/lakelandPharmacy/4.png",
+      "images/portfolio/modals/lakelandPharmacy/5.png",
+      "images/portfolio/modals/lakelandPharmacy/6.png",
+      "images/portfolio/modals/lakelandPharmacy/7.png",
+      "images/portfolio/modals/lakelandPharmacy/8.png",
+    ],
+    description: `I developed a WordPress website tailored for pharmacy. It features user-friendly navigation,
+      informative content on medications and health, and secure online refill and transfer forms
+      seamlessly connected to the internal system for efficient order processing.`,
+    tools: `WordPress and PHP - Setup a
+      platform for adding interactivity or dynamic elements to landing pages. HTML5/CSS3/BOOTSTRAP
+      - Used to structure and style the content of the website. JavaScript/JQuery - For employed
+      to add interactivity and dynamic behavior to the website. Google Fonts - To enhance the
+      typography of the website. SVG Assets - Included in the project to enhance visual appeal and
+      provide scalable, resolution-independent images. Adobe Creative Suite - This includes
+      Photoshop for image editing, Illustrator for vector graphics, and InDesign for layout
+      design.`,
+    websiteLink: "https://LakelandPharmacy.US/",
+  });
 
   // Fashion Floors
   createPortfolioItem({
@@ -297,21 +353,110 @@ Promise.all(fragmentPromises).then(() => {
     websiteLink: "https://carpetsbyconrad.com/",
   });
 
-  // New Diamonds Inc.
+  // Oasis Family Dental
   createPortfolioItem({
-    id: "New-Diamonds-Inc",
-    title: "New Diamonds, Inc.",
-    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-22.jpg",
+    id: "oasis-dental",
+    title: "Oasis Family Dental",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-16.jpg",
     modalImages: [
-      "images/portfolio/modals/aakashDiamondsInc/3.png",
-      "images/portfolio/modals/aakashDiamondsInc/2.png",
-      "images/portfolio/modals/aakashDiamondsInc/1.png",
-      "images/portfolio/modals/aakashDiamondsInc/4.png",
-      "images/portfolio/modals/aakashDiamondsInc/5.png",
-      "images/portfolio/modals/aakashDiamondsInc/6.png",
+      "images/portfolio/modals/oasis/2.jpg",
+      "images/portfolio/modals/oasis/1.jpg",
+      "images/portfolio/modals/oasis/3.jpg",
+      "images/portfolio/modals/oasis/4.jpg",
+      "images/portfolio/modals/oasis/5.jpg",
     ],
-    description: `The development of a full-stack e-commerce website for a diamond shop, incorporating secure authentication, real-time database functionality, and integration with Google Sheets, promises to deliver a robust and user-friendly platform for both customers and administrators. By leveraging cutting-edge technologies and best practices in web development, this project aims to provide a seamless and efficient online shopping experience for diamond enthusiasts worldwide.`,
-    tools: `Full-stack e-commerce website includes Google Firebase authentication, Firebase real-time database, PHP, JavaScript, Connect Google Sheets with Database, and Sass.`,
+    description: `To enhance marketing and branding efforts, I've developed branding strategies, created brand
+      materials, marketing collateral, social media campaigns, flyers, email marketing content,
+      and website materials tailored to your needs.`,
+    tools: `SVG Assets - Included in the
+      project to enhance visual appeal and provide scalable, resolution-independent images. Adobe
+      Creative Suite - This includes Photoshop for image editing, Illustrator for vector graphics,
+      and InDesign for layout design. Print production and email marketing tools.`,
+    websiteLink: "https://www.mydentaloasis.com/",
+  });
+
+  // Mt Playmore
+  createPortfolioItem({
+    id: "mt-playmore",
+    title: "Mt Playmore",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-18.jpg",
+    modalImages: [
+      "images/portfolio/modals/mtplaymore/1.png",
+      "images/portfolio/modals/mtplaymore/2.png",
+      "images/portfolio/modals/mtplaymore/3.png",
+      "images/portfolio/modals/mtplaymore/4.png",
+      "images/portfolio/modals/mtplaymore/5.png",
+    ],
+    description: `Step into the digital spotlight with my dazzling creation: a full-stack WordPress website
+      infused with bespoke CSS, JavaScript, and PHP magic. I didn't just revamp - I reinvented,
+      elevating branding and structure to new heights. My secret ingredient? User research,
+      ensuring a UI that's not just good but great. And of course, I didn't stop there; I also
+      crafted captivating brand and marketing materials to truly make your mark in the online
+      sphere.`,
+    tools: `WordPress and PHP - Setup a
+      platform for adding interactivity or dynamic elements to landing pages. HTML5/CSS3/BOOTSTRAP
+      - Used to structure and style the content of the website. JavaScript/JQuery - For employed
+      to add interactivity and dynamic behavior to the website. Google Fonts - To enhance the
+      typography of the website. SVG Assets - Included in the project to enhance visual appeal and
+      provide scalable, resolution-independent images. Adobe Creative Suite - This includes
+      Photoshop for image editing, Illustrator for vector graphics, and InDesign for layout
+      design.`,
+    websiteLink: "http://mtplaymore.com/",
+  });
+
+  // Elite Trading
+  createPortfolioItem({
+    id: "elite-trading-service",
+    title: "Elite Trading Service",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-28-elite.jpg",
+    modalImages: [
+      "images/portfolio/modals/eliteTrading/11.jpg",
+      "images/portfolio/modals/eliteTrading/2.png",
+      "images/portfolio/modals/eliteTrading/3.png",
+      "images/portfolio/modals/eliteTrading/4.png",
+      "images/portfolio/modals/eliteTrading/5.png",
+      "images/portfolio/modals/eliteTrading/16.jpg",
+    ],
+    description: `I create a dynamic one-page promotional website to showcase products and services with flair.
+      I spearhead impactful email marketing campaigns and cultivate brand development strategies
+      to amplify the online presence and captivate the audience.`,
+    tools: `HTML5/CSS3/BOOTSTRAP - Used to
+      structure and style the content of the website. JavaScript/JQuery - For employed to add
+      interactivity and dynamic behavior to the website. Google Fonts - To enhance the typography
+      of the website. SVG Assets - Included in the project to enhance visual appeal and provide
+      scalable, resolution-independent images. Adobe Creative Suite - This includes Photoshop for
+      image editing, Illustrator for vector graphics, and InDesign for layout design.`,
+    websiteLink: "http://eliteTrading.co.in/",
+  });
+
+  // Jalpa Dance Studio
+  createPortfolioItem({
+    id: "jalpa-dance",
+    title: "Jalpa Dance Studio",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-2.jpg",
+    modalImages: [
+      "images/portfolio/modals/jalpaDance/1.png",
+      "images/portfolio/modals/jalpaDance/2.png",
+      "images/portfolio/modals/jalpaDance/3.png",
+      "images/portfolio/modals/jalpaDance/4.png",
+      "images/portfolio/modals/jalpaDance/5.png",
+      "images/portfolio/modals/jalpaDance/6.png",
+    ],
+    description: `I've developed a full-stack website with comprehensive branding. Additionally, I've crafted a
+      mobile-ready one-page website. The website is deployed on Amazon Web Server, ensuring
+      optimal performance. I also offer ongoing maintenance services to keep everything running
+      smoothly.`,
+    tools: `HTML5/CSS3/BOOTSTRAP - Utilized
+      for structuring and styling the website content, ensuring a modern and responsive design.
+      JavaScript/JQuery - Implemented to introduce interactivity and dynamic features, enhancing
+      user engagement. Google Fonts - Incorporated to elevate the typography, lending a distinct
+      and appealing visual style. SVG Assets - Integrated into the project to enhance visual
+      appeal and provide scalable, resolution-independent images for a seamless user experience.
+      Adobe Creative Suite - Leveraged tools like Photoshop for image editing, Illustrator for
+      vector graphics, and InDesign for meticulous layout design, ensuring polished visuals.
+      Additionally, AWS (Amazon Web Services), GitHub for version control, and SASS for
+      streamlined CSS development were employed to optimize performance and facilitate efficient
+      collaboration throughout the development process.`,
     websiteText: "Request a Demo",
     websiteLink: "https://kratuvwxyz.github.io/#contact",
   });
@@ -331,25 +476,123 @@ Promise.all(fragmentPromises).then(() => {
       "images/portfolio/modals/superior/8.jpg",
     ],
     description: `Collaborated with the marketing team to craft landing pages such as Discover Superior,
-      Members First, and About Us, utilizing Adobe Experience Manager (AEM). Additionally,
-      contributed to the creation of various branding materials for marketing purposes.`,
+        Members First, and About Us, utilizing Adobe Experience Manager (AEM). Additionally,
+        contributed to the creation of various branding materials for marketing purposes.`,
     tools: `Adobe Creative Suite - This
-      includes Photoshop for image editing, Illustrator for vector graphics, and InDesign for
-      layout design. HTML/CSS/JavaScript - For coding the landing page and email templates. Adobe
-      Experience Manager (AEM) - Setup a platform for adding interactivity or dynamic elements to
-      landing pages.`,
+        includes Photoshop for image editing, Illustrator for vector graphics, and InDesign for
+        layout design. HTML/CSS/JavaScript - For coding the landing page and email templates. Adobe
+        Experience Manager (AEM) - Setup a platform for adding interactivity or dynamic elements to
+        landing pages.`,
     websiteText: "Discover Superior Webpage",
     websiteLink: `https://www.superiorhealthplan.com/discover-superior.html`,
     websiteText2: "Members First Webpage",
     websiteLink2: `https://www.superiorhealthplan.com/members-first.html`,
   });
 
+  // New Diamonds Inc.
+  createPortfolioItem({
+    id: "New-Diamonds-Inc",
+    title: "New Diamonds, Inc.",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-22.jpg",
+    modalImages: [
+      "images/portfolio/modals/aakashDiamondsInc/3.png",
+      "images/portfolio/modals/aakashDiamondsInc/2.png",
+      "images/portfolio/modals/aakashDiamondsInc/1.png",
+      "images/portfolio/modals/aakashDiamondsInc/4.png",
+      "images/portfolio/modals/aakashDiamondsInc/5.png",
+      "images/portfolio/modals/aakashDiamondsInc/6.png",
+    ],
+    description: `The development of a full-stack e-commerce website for a diamond shop, incorporating secure authentication, real-time database functionality, and integration with Google Sheets, promises to deliver a robust and user-friendly platform for both customers and administrators. By leveraging cutting-edge technologies and best practices in web development, this project aims to provide a seamless and efficient online shopping experience for diamond enthusiasts worldwide.`,
+    tools: `Full-stack e-commerce website includes Google Firebase authentication, Firebase real-time database, PHP, JavaScript, Connect Google Sheets with Database, and Sass.`,
+    websiteText: "Request a Demo",
+    websiteLink: "https://kratuvwxyz.github.io/#contact",
+  });
+
+  // Apollo Tiles
+  createPortfolioItem({
+    id: "apollo-tiles",
+    title: "Apollo Tiles",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-12.jpg",
+    modalImages: [
+      "images/portfolio/modals/apolloTiles/1.png",
+      "images/portfolio/modals/apolloTiles/2.png",
+      "images/portfolio/modals/apolloTiles/3.png",
+      "images/portfolio/modals/apolloTiles/4.png",
+      "images/portfolio/modals/apolloTiles/5.png",
+    ],
+    description: `To elevate our marketing and branding efforts, I've meticulously crafted a comprehensive
+      suite of assets. This includes the development of a dynamic full-stack website, alongside
+      branding materials, marketing collateral, eye-catching flyers, engaging brochures, detailed
+      product catalogs, and regular updates across our social media platforms.`,
+    tools: `HTML5/CSS3/BOOTSTRAP - Used to
+      structure and style the content of the website. JavaScript/JQuery - For employed to add
+      interactivity and dynamic behavior to the website. Google Fonts - To enhance the typography
+      of the website. SVG Assets - Included in the project to enhance visual appeal and provide
+      scalable, resolution-independent images. Adobe Creative Suite - This includes Photoshop for
+      image editing, Illustrator for vector graphics, and InDesign for layout design. PHP - For
+      online email form.`,
+    websiteLink: "https://apollofloors.com/",
+  });
+
+  // ProcSafe
+  createPortfolioItem({
+    id: "procsafe",
+    title: "ProcSafe",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-19.jpg",
+    modalImages: [
+      "images/portfolio/modals/procSafe/1.png",
+      "images/portfolio/modals/procSafe/2.png",
+      "images/portfolio/modals/procSafe/3.png",
+      "images/portfolio/modals/procSafe/4.png",
+      "images/portfolio/modals/procSafe/5.png",
+      "images/portfolio/modals/procSafe/6.png",
+      "images/portfolio/modals/procSafe/7.png",
+      "images/portfolio/modals/procSafe/8.png",
+    ],
+    description: `To enhance ProcSafe's marketing and branding efforts, a bespoke digital marketing strategy
+      was crafted. The website showcases the company's key attributes and strengths, incorporating
+      interactive online forms and marketing utilities to foster client engagement.`,
+    tools: `HTML5/CSS3/BOOTSTRAP - Used to
+      structure and style the content of the website. JavaScript/JQuery - For employed to add
+      interactivity and dynamic behavior to the website. Google Fonts - To enhance the typography
+      of the website. SVG Assets - Included in the project to enhance visual appeal and provide
+      scalable, resolution-independent images.`,
+    websiteText: "Request a Demo",
+    websiteLink: "https://kratuvwxyz.github.io/#contact",
+  });
+
+  // Save My Road
+  createPortfolioItem({
+    id: "save-my-road",
+    title: "Save My Road",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-14.jpg",
+    modalImages: [
+      "images/portfolio/modals/savemyroad/5.jpg",
+      "images/portfolio/modals/savemyroad/4.jpg",
+      "images/portfolio/modals/savemyroad/1.jpg",
+      "images/portfolio/modals/savemyroad/2.jpg",
+      "images/portfolio/modals/savemyroad/3.jpg",
+    ],
+    description: `For the launch of the savemyroad.com website, I spearheaded an email marketing initiative and
+      coordinated the placement of print ads in more than 100 magazines, utilizing five unique
+      layouts.`,
+    tools: `Adobe Creative Suite - This
+      includes Photoshop for image editing, Illustrator for vector graphics, and InDesign for
+      layout design. HTML/CSS - For coding the landing page and email templates. JavaScript - For
+      adding interactivity or dynamic elements to the landing page. Email marketing platforms.
+      Worked with severl production teams to launch this campaign.`,
+    websiteText: "Request a Demo",
+    websiteLink: "https://kratuvwxyz.github.io/#contact",
+  });
+
   /*
-  // Title
+
+
+  // Titlex
   createPortfolioItem({
     id: "idTitle",
-    title: "Title",
-    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
+    title: "Titlex",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-888.jpg",
     modalImages: [
       "images/portfolio/modals/name.png",
     ],
@@ -358,11 +601,11 @@ Promise.all(fragmentPromises).then(() => {
     websiteLink: "www",
   });
 
-  // Title
+  // Titlex
   createPortfolioItem({
     id: "idTitle",
-    title: "Title",
-    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
+    title: "Titlex",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-888.jpg",
     modalImages: [
       "images/portfolio/modals/name.png",
     ],
@@ -371,96 +614,7 @@ Promise.all(fragmentPromises).then(() => {
     websiteLink: "www",
   });
 
-  // Title
-  createPortfolioItem({
-    id: "idTitle",
-    title: "Title",
-    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
-    modalImages: [
-      "images/portfolio/modals/name.png",
-    ],
-    description: `ddd`,
-    tools: `ttt`,
-    websiteLink: "www",
-  });
 
-  // Title
-  createPortfolioItem({
-    id: "idTitle",
-    title: "Title",
-    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
-    modalImages: [
-      "images/portfolio/modals/name.png",
-    ],
-    description: `ddd`,
-    tools: `ttt`,
-    websiteLink: "www",
-  });
-
-  // Title
-  createPortfolioItem({
-    id: "idTitle",
-    title: "Title",
-    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
-    modalImages: [
-      "images/portfolio/modals/name.png",
-    ],
-    description: `ddd`,
-    tools: `ttt`,
-    websiteLink: "www",
-  });
-
-  // Title
-  createPortfolioItem({
-    id: "idTitle",
-    title: "Title",
-    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
-    modalImages: [
-      "images/portfolio/modals/name.png",
-    ],
-    description: `ddd`,
-    tools: `ttt`,
-    websiteLink: "www",
-  });
-
-  // Title
-  createPortfolioItem({
-    id: "idTitle",
-    title: "Title",
-    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
-    modalImages: [
-      "images/portfolio/modals/name.png",
-    ],
-    description: `ddd`,
-    tools: `ttt`,
-    websiteLink: "www",
-  });
-
-  // Title
-  createPortfolioItem({
-    id: "idTitle",
-    title: "Title",
-    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
-    modalImages: [
-      "images/portfolio/modals/name.png",
-    ],
-    description: `ddd`,
-    tools: `ttt`,
-    websiteLink: "www",
-  });
-
-  // Title
-  createPortfolioItem({
-    id: "idTitle",
-    title: "Title",
-    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
-    modalImages: [
-      "images/portfolio/modals/name.png",
-    ],
-    description: `ddd`,
-    tools: `ttt`,
-    websiteLink: "www",
-  });
 */
 
 
