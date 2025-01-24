@@ -375,6 +375,35 @@ Promise.all(fragmentPromises).then(() => {
     websiteLink: "https://www.mydentaloasis.com/",
   });
 
+  // Mt Playmore
+  createPortfolioItem({
+    id: "mt-playmore",
+    title: "Mt Playmore",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-18.jpg",
+    modalImages: [
+      "images/portfolio/modals/mtplaymore/1.png",
+      "images/portfolio/modals/mtplaymore/2.png",
+      "images/portfolio/modals/mtplaymore/3.png",
+      "images/portfolio/modals/mtplaymore/4.png",
+      "images/portfolio/modals/mtplaymore/5.png",
+    ],
+    description: `Step into the digital spotlight with my dazzling creation: a full-stack WordPress website
+      infused with bespoke CSS, JavaScript, and PHP magic. I didn't just revamp - I reinvented,
+      elevating branding and structure to new heights. My secret ingredient? User research,
+      ensuring a UI that's not just good but great. And of course, I didn't stop there; I also
+      crafted captivating brand and marketing materials to truly make your mark in the online
+      sphere.`,
+    tools: `WordPress and PHP - Setup a
+      platform for adding interactivity or dynamic elements to landing pages. HTML5/CSS3/BOOTSTRAP
+      - Used to structure and style the content of the website. JavaScript/JQuery - For employed
+      to add interactivity and dynamic behavior to the website. Google Fonts - To enhance the
+      typography of the website. SVG Assets - Included in the project to enhance visual appeal and
+      provide scalable, resolution-independent images. Adobe Creative Suite - This includes
+      Photoshop for image editing, Illustrator for vector graphics, and InDesign for layout
+      design.`,
+    websiteLink: "http://mtplaymore.com/",
+  });
+
   // New Diamonds Inc.
   createPortfolioItem({
     id: "New-Diamonds-Inc",
@@ -428,31 +457,7 @@ Promise.all(fragmentPromises).then(() => {
   
 
 
-  // Title
-  createPortfolioItem({
-    id: "idTitle",
-    title: "Title",
-    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-888.jpg",
-    modalImages: [
-      "images/portfolio/modals/name.png",
-    ],
-    description: `ddd`,
-    tools: `ttt`,
-    websiteLink: "www",
-  });
 
-  // Title
-  createPortfolioItem({
-    id: "idTitle",
-    title: "Title",
-    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-888.jpg",
-    modalImages: [
-      "images/portfolio/modals/name.png",
-    ],
-    description: `ddd`,
-    tools: `ttt`,
-    websiteLink: "www",
-  });
 
   // Title
   createPortfolioItem({
