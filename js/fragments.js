@@ -429,6 +429,38 @@ Promise.all(fragmentPromises).then(() => {
     websiteLink: "http://eliteTrading.co.in/",
   });
 
+  // Jalpa Dance Studio
+  createPortfolioItem({
+    id: "jalpa-dance",
+    title: "Jalpa Dance Studio",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-2.jpg",
+    modalImages: [
+      "images/portfolio/modals/jalpaDance/1.png",
+      "images/portfolio/modals/jalpaDance/2.png",
+      "images/portfolio/modals/jalpaDance/3.png",
+      "images/portfolio/modals/jalpaDance/4.png",
+      "images/portfolio/modals/jalpaDance/5.png",
+      "images/portfolio/modals/jalpaDance/6.png",
+    ],
+    description: `I've developed a full-stack website with comprehensive branding. Additionally, I've crafted a
+      mobile-ready one-page website. The website is deployed on Amazon Web Server, ensuring
+      optimal performance. I also offer ongoing maintenance services to keep everything running
+      smoothly.`,
+    tools: `HTML5/CSS3/BOOTSTRAP - Utilized
+      for structuring and styling the website content, ensuring a modern and responsive design.
+      JavaScript/JQuery - Implemented to introduce interactivity and dynamic features, enhancing
+      user engagement. Google Fonts - Incorporated to elevate the typography, lending a distinct
+      and appealing visual style. SVG Assets - Integrated into the project to enhance visual
+      appeal and provide scalable, resolution-independent images for a seamless user experience.
+      Adobe Creative Suite - Leveraged tools like Photoshop for image editing, Illustrator for
+      vector graphics, and InDesign for meticulous layout design, ensuring polished visuals.
+      Additionally, AWS (Amazon Web Services), GitHub for version control, and SASS for
+      streamlined CSS development were employed to optimize performance and facilitate efficient
+      collaboration throughout the development process.`,
+      websiteText: "Request a Demo",
+      websiteLink: "https://kratuvwxyz.github.io/#contact",
+  });
+
   // New Diamonds Inc.
   createPortfolioItem({
     id: "New-Diamonds-Inc",
@@ -479,12 +511,18 @@ Promise.all(fragmentPromises).then(() => {
   /*
 
 
-  
-
-
-
-
-
+  // Titlex
+  createPortfolioItem({
+    id: "idTitle",
+    title: "Titlex",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-888.jpg",
+    modalImages: [
+      "images/portfolio/modals/name.png",
+    ],
+    description: `ddd`,
+    tools: `ttt`,
+    websiteLink: "www",
+  });
 
   // Titlex
   createPortfolioItem({
@@ -499,10 +537,10 @@ Promise.all(fragmentPromises).then(() => {
     websiteLink: "www",
   });
 
-  // Title
+  // Titlex
   createPortfolioItem({
     id: "idTitle",
-    title: "Title",
+    title: "Titlex",
     imageSrc: "images/portfolio/intro-bg-sm/intro-bg-888.jpg",
     modalImages: [
       "images/portfolio/modals/name.png",
@@ -512,10 +550,10 @@ Promise.all(fragmentPromises).then(() => {
     websiteLink: "www",
   });
 
-  // Title
+  // Titlex
   createPortfolioItem({
     id: "idTitle",
-    title: "Title",
+    title: "Titlex",
     imageSrc: "images/portfolio/intro-bg-sm/intro-bg-888.jpg",
     modalImages: [
       "images/portfolio/modals/name.png",
@@ -524,6 +562,21 @@ Promise.all(fragmentPromises).then(() => {
     tools: `ttt`,
     websiteLink: "www",
   });
+
+  // Titlex
+  createPortfolioItem({
+    id: "idTitle",
+    title: "Titlex",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-888.jpg",
+    modalImages: [
+      "images/portfolio/modals/name.png",
+    ],
+    description: `ddd`,
+    tools: `ttt`,
+    websiteLink: "www",
+  });
+
+
 */
 
 
