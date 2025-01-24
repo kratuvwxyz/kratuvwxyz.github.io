@@ -143,6 +143,13 @@ Promise.all(fragmentPromises).then(() => {
 
 
   /*-----------------------------------------------------*/
+  /* Current Year on Footer
+   ------------------------------------------------------ */
+
+  var d = new Date();
+  $("#currentYear").text(d.getFullYear());
+
+  /*-----------------------------------------------------*/
   /* Navigation Menu
    ------------------------------------------------------ */
   var toggleButton = $(".menu-toggle"),
