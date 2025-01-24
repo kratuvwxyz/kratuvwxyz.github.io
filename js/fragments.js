@@ -457,8 +457,36 @@ Promise.all(fragmentPromises).then(() => {
       Additionally, AWS (Amazon Web Services), GitHub for version control, and SASS for
       streamlined CSS development were employed to optimize performance and facilitate efficient
       collaboration throughout the development process.`,
-      websiteText: "Request a Demo",
-      websiteLink: "https://kratuvwxyz.github.io/#contact",
+    websiteText: "Request a Demo",
+    websiteLink: "https://kratuvwxyz.github.io/#contact",
+  });
+
+  // Superior
+  createPortfolioItem({
+    id: "superior",
+    title: "Superior HealthPlan",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-13.jpg",
+    modalImages: [
+      "images/portfolio/modals/superior/1.jpg",
+      "images/portfolio/modals/superior/2.jpg",
+      "images/portfolio/modals/superior/4.jpg",
+      "images/portfolio/modals/superior/5.jpg",
+      "images/portfolio/modals/superior/6.jpg",
+      "images/portfolio/modals/superior/7.jpg",
+      "images/portfolio/modals/superior/8.jpg",
+    ],
+    description: `Collaborated with the marketing team to craft landing pages such as Discover Superior,
+        Members First, and About Us, utilizing Adobe Experience Manager (AEM). Additionally,
+        contributed to the creation of various branding materials for marketing purposes.`,
+    tools: `Adobe Creative Suite - This
+        includes Photoshop for image editing, Illustrator for vector graphics, and InDesign for
+        layout design. HTML/CSS/JavaScript - For coding the landing page and email templates. Adobe
+        Experience Manager (AEM) - Setup a platform for adding interactivity or dynamic elements to
+        landing pages.`,
+    websiteText: "Discover Superior Webpage",
+    websiteLink: `https://www.superiorhealthplan.com/discover-superior.html`,
+    websiteText2: "Members First Webpage",
+    websiteLink2: `https://www.superiorhealthplan.com/members-first.html`,
   });
 
   // New Diamonds Inc.
@@ -480,49 +508,34 @@ Promise.all(fragmentPromises).then(() => {
     websiteLink: "https://kratuvwxyz.github.io/#contact",
   });
 
-  // Superior
+  // Apollo Tiles
   createPortfolioItem({
-    id: "superior",
-    title: "Superior HealthPlan",
-    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-13.jpg",
+    id: "apollo-tiles",
+    title: "Apollo Tiles",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-12.jpg",
     modalImages: [
-      "images/portfolio/modals/superior/1.jpg",
-      "images/portfolio/modals/superior/2.jpg",
-      "images/portfolio/modals/superior/4.jpg",
-      "images/portfolio/modals/superior/5.jpg",
-      "images/portfolio/modals/superior/6.jpg",
-      "images/portfolio/modals/superior/7.jpg",
-      "images/portfolio/modals/superior/8.jpg",
+      "images/portfolio/modals/apolloTiles/1.png",
+      "images/portfolio/modals/apolloTiles/2.png",
+      "images/portfolio/modals/apolloTiles/3.png",
+      "images/portfolio/modals/apolloTiles/4.png",
+      "images/portfolio/modals/apolloTiles/5.png",
     ],
-    description: `Collaborated with the marketing team to craft landing pages such as Discover Superior,
-      Members First, and About Us, utilizing Adobe Experience Manager (AEM). Additionally,
-      contributed to the creation of various branding materials for marketing purposes.`,
-    tools: `Adobe Creative Suite - This
-      includes Photoshop for image editing, Illustrator for vector graphics, and InDesign for
-      layout design. HTML/CSS/JavaScript - For coding the landing page and email templates. Adobe
-      Experience Manager (AEM) - Setup a platform for adding interactivity or dynamic elements to
-      landing pages.`,
-    websiteText: "Discover Superior Webpage",
-    websiteLink: `https://www.superiorhealthplan.com/discover-superior.html`,
-    websiteText2: "Members First Webpage",
-    websiteLink2: `https://www.superiorhealthplan.com/members-first.html`,
+    description: `To elevate our marketing and branding efforts, I've meticulously crafted a comprehensive
+      suite of assets. This includes the development of a dynamic full-stack website, alongside
+      branding materials, marketing collateral, eye-catching flyers, engaging brochures, detailed
+      product catalogs, and regular updates across our social media platforms.`,
+    tools: `HTML5/CSS3/BOOTSTRAP - Used to
+      structure and style the content of the website. JavaScript/JQuery - For employed to add
+      interactivity and dynamic behavior to the website. Google Fonts - To enhance the typography
+      of the website. SVG Assets - Included in the project to enhance visual appeal and provide
+      scalable, resolution-independent images. Adobe Creative Suite - This includes Photoshop for
+      image editing, Illustrator for vector graphics, and InDesign for layout design. PHP - For
+      online email form.`,
+    websiteLink: "https://apollofloors.com/",
   });
 
   /*
 
-
-  // Titlex
-  createPortfolioItem({
-    id: "idTitle",
-    title: "Titlex",
-    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-888.jpg",
-    modalImages: [
-      "images/portfolio/modals/name.png",
-    ],
-    description: `ddd`,
-    tools: `ttt`,
-    websiteLink: "www",
-  });
 
   // Titlex
   createPortfolioItem({
