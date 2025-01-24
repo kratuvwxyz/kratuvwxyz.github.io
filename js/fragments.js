@@ -304,6 +304,35 @@ Promise.all(fragmentPromises).then(() => {
     websiteLink: "https://zaikatx.com/",
   });
 
+  // Lakeland Pharmacy
+  createPortfolioItem({
+    id: "lakeland-pharmacy",
+    title: "Lakeland Pharmacy",
+    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-26-lakeland.jpg",
+    modalImages: [
+      "images/portfolio/modals/lakelandPharmacy/1.png",
+      "images/portfolio/modals/lakelandPharmacy/2.png",
+      "images/portfolio/modals/lakelandPharmacy/3.png",
+      "images/portfolio/modals/lakelandPharmacy/4.png",
+      "images/portfolio/modals/lakelandPharmacy/5.png",
+      "images/portfolio/modals/lakelandPharmacy/6.png",
+      "images/portfolio/modals/lakelandPharmacy/7.png",
+      "images/portfolio/modals/lakelandPharmacy/8.png",
+    ],
+    description: `I developed a WordPress website tailored for pharmacy. It features user-friendly navigation,
+      informative content on medications and health, and secure online refill and transfer forms
+      seamlessly connected to the internal system for efficient order processing.`,
+    tools: `WordPress and PHP - Setup a
+      platform for adding interactivity or dynamic elements to landing pages. HTML5/CSS3/BOOTSTRAP
+      - Used to structure and style the content of the website. JavaScript/JQuery - For employed
+      to add interactivity and dynamic behavior to the website. Google Fonts - To enhance the
+      typography of the website. SVG Assets - Included in the project to enhance visual appeal and
+      provide scalable, resolution-independent images. Adobe Creative Suite - This includes
+      Photoshop for image editing, Illustrator for vector graphics, and InDesign for layout
+      design.`,
+    websiteLink: "https://LakelandPharmacy.US/",
+  });
+
   // Fashion Floors
   createPortfolioItem({
     id: "Fashion-Floors",
@@ -374,18 +403,7 @@ Promise.all(fragmentPromises).then(() => {
   /*
 
 
-  // Title
-  createPortfolioItem({
-    id: "idTitle",
-    title: "Title",
-    imageSrc: "images/portfolio/intro-bg-sm/intro-bg-@@@.jpg",
-    modalImages: [
-      "images/portfolio/modals/name.png",
-    ],
-    description: `ddd`,
-    tools: `ttt`,
-    websiteLink: "www",
-  });
+  
 
   // Title
   createPortfolioItem({
