@@ -188,14 +188,14 @@ p img {
 p.lead {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 1.8;
   color: #888888;
 }
 p.lead strong {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 1.8;
   color: #777777;
 }
