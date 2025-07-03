@@ -43,10 +43,10 @@
       [960, 3],
     ],
     navigationText: false,
-    loop:true,
-    autoplay:true,
-    autoplayTimeout:5000,
-    autoplayHoverPause:true
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
   });
 
   /*----------------------------------------------------- */
@@ -107,6 +107,20 @@
         },
       });
     },
+  });
+
+  /*---------------------------------------------------- */
+  /* More About Me Hover 
+  ------------------------------------------------------ */
+  $(document).on("mouseenter", "#moreAboutMe", function () {
+    // Speed up the video playback when hovering over the "More About Me" button
+    $(".bgVideo-Header").get(0).playbackRate = 10.0;
+  });
+  $(document).on("mouseleave", "#moreAboutMe", function () {
+    $(".bgVideo-Header").get(0).playbackRate = 1.0;
+  });
+  $(document).on("click", "#moreAboutMe", function () {
+    $(".bgVideo-Header").get(0).playbackRate = 1.0;
   });
 
   /*----------------------------------------------------- */
