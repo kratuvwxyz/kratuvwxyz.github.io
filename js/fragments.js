@@ -80,8 +80,8 @@ function createPortfolioItem(options) {
         <p>${description}</p>
         <div class="categories"><span style="color: black">Tools:</span> ${tools}</div>
         <div class="pt-5">
-          <a href="${websiteLink}" target="_blank" class="btn btn-lg btn-light" style="letter-spacing: 2px">${websiteText}</a>
-          ${websiteText2 && websiteLink2 ? `<a href="${websiteLink2}" target="_blank" class="btn btn-lg btn-light" style="letter-spacing: 2px">${websiteText2}</a>` : ''}
+          ${websiteText && websiteLink ? `<a href="${websiteLink}" ${websiteLink !== '#' ? "target='_blank'" : ""} class="btn btn-lg btn-light" style="letter-spacing: 2px">${websiteText}</a>` : ''}
+          ${websiteText2 && websiteLink2 ? `<a href="${websiteLink2}" ${websiteLink2 !== '#' ? "target='_blank'" : ""} class="btn btn-lg btn-light" style="letter-spacing: 2px">${websiteText2}</a>` : ''}
         </div>
       </div>
       <a href="#" class="popup-modal-dismiss btn btn-light btn-lg btn-block" style="text-transform: uppercase; letter-spacing: 3px"><span style="color: lightgray; font-weight: bolder; font-size: 15px"></span> Back to Portfolio</a>
@@ -301,7 +301,7 @@ Promise.all(fragmentPromises).then(() => {
       provide scalable, resolution-independent images. Adobe Creative Suite - This includes
       Photoshop for image editing, Illustrator for vector graphics, and InDesign for layout
       design.`,
-    websiteLink: "https://zaikatx.com/",
+    // websiteLink: "#",
   });
 
   // Lakeland Pharmacy
@@ -330,7 +330,7 @@ Promise.all(fragmentPromises).then(() => {
       provide scalable, resolution-independent images. Adobe Creative Suite - This includes
       Photoshop for image editing, Illustrator for vector graphics, and InDesign for layout
       design.`,
-    websiteLink: "https://LakelandPharmacy.US/",
+    websiteLink: "https://pharmacy.desaign.app/",
   });
 
   // Fashion Floors
@@ -401,7 +401,7 @@ Promise.all(fragmentPromises).then(() => {
       provide scalable, resolution-independent images. Adobe Creative Suite - This includes
       Photoshop for image editing, Illustrator for vector graphics, and InDesign for layout
       design.`,
-    websiteLink: "http://mtplaymore.com/",
+    // websiteLink: "#",
   });
 
   // Elite Trading
@@ -426,7 +426,7 @@ Promise.all(fragmentPromises).then(() => {
       of the website. SVG Assets - Included in the project to enhance visual appeal and provide
       scalable, resolution-independent images. Adobe Creative Suite - This includes Photoshop for
       image editing, Illustrator for vector graphics, and InDesign for layout design.`,
-    websiteLink: "http://eliteTrading.co.in/",
+    // websiteLink: "#",
   });
 
   // Jalpa Dance Studio
@@ -457,8 +457,8 @@ Promise.all(fragmentPromises).then(() => {
       Additionally, AWS (Amazon Web Services), GitHub for version control, and SASS for
       streamlined CSS development were employed to optimize performance and facilitate efficient
       collaboration throughout the development process.`,
-    websiteText: "Request a Demo",
-    websiteLink: "https://kratuvwxyz.github.io/#contact",
+    // websiteText: "Request a Demo",
+    // websiteLink: "#",
   });
 
   // Superior
@@ -504,8 +504,8 @@ Promise.all(fragmentPromises).then(() => {
     ],
     description: `The development of a full-stack e-commerce website for a diamond shop, incorporating secure authentication, real-time database functionality, and integration with Google Sheets, promises to deliver a robust and user-friendly platform for both customers and administrators. By leveraging cutting-edge technologies and best practices in web development, this project aims to provide a seamless and efficient online shopping experience for diamond enthusiasts worldwide.`,
     tools: `Full-stack e-commerce website includes Google Firebase authentication, Firebase real-time database, PHP, JavaScript, Connect Google Sheets with Database, and Sass.`,
-    websiteText: "Request a Demo",
-    websiteLink: "https://kratuvwxyz.github.io/#contact",
+    // websiteText: "Request a Demo",
+    // websiteLink: "#",
   });
 
   // Apollo Tiles
@@ -531,7 +531,7 @@ Promise.all(fragmentPromises).then(() => {
       scalable, resolution-independent images. Adobe Creative Suite - This includes Photoshop for
       image editing, Illustrator for vector graphics, and InDesign for layout design. PHP - For
       online email form.`,
-    websiteLink: "https://apollofloors.com/",
+    // websiteLink: "#",
   });
 
   // ProcSafe
@@ -557,8 +557,8 @@ Promise.all(fragmentPromises).then(() => {
       interactivity and dynamic behavior to the website. Google Fonts - To enhance the typography
       of the website. SVG Assets - Included in the project to enhance visual appeal and provide
       scalable, resolution-independent images.`,
-    websiteText: "Request a Demo",
-    websiteLink: "https://kratuvwxyz.github.io/#contact",
+    // websiteText: "Request a Demo",
+    // websiteLink: "#",
   });
 
   // Save My Road
@@ -581,8 +581,8 @@ Promise.all(fragmentPromises).then(() => {
       layout design. HTML/CSS - For coding the landing page and email templates. JavaScript - For
       adding interactivity or dynamic elements to the landing page. Email marketing platforms.
       Worked with severl production teams to launch this campaign.`,
-    websiteText: "Request a Demo",
-    websiteLink: "https://kratuvwxyz.github.io/#contact",
+    // websiteText: "Request a Demo",
+    // websiteLink: "#",
   });
 
   /*
