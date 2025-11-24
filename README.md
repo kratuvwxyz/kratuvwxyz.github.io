@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Kratu Desai  
+# 👋 Hi, I'm Kratu De<span style="color:gold">sai</span>  
 ### **Full-Stack Engineer · Creative Technologist · Dreamer-in-Chief at DESAIGN.STUDIO**
 
 I build thoughtful, user-centric digital products rooted in clean engineering, intuitive design, and purposeful aesthetics.  
@@ -80,10 +80,10 @@ Let’s build something extraordinary together.
 ## 📫 How to Reach Me
 Whether you're a recruiter, founder, developer, or collaborator — I’d love to connect.
 
-📧 **kratu@desaign.studio**  
-🌐 **Portfolio:** https://desaigner.info  
-💼 **LinkedIn:** https://linkedin.com/in/kratu-desai  
-🐙 **GitHub:** https://github.com/kratuvwxyz  
+📧 **[eMail@TheGenius.One](mailto:email@thegenius.one)**
+🌐 **Portfolio:** [desaigner.info](https://desaigner.info)  
+💼 **LinkedIn:** [linkedin.com/in/desaigner](https://linkedin.com/in/desaigner)
+🐙 **GitHub:** [github.com/desaigner](https://github.com/desaigner)
 
 ---
 
